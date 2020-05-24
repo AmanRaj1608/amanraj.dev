@@ -1,0 +1,26 @@
+.text-box {
+  margin: 0;
+  padding: 5%;
+  background-color: #162447;
+  /* position: absolute; */
+  text-align: center;
+  font-style: italic;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+.text-box-404 {
+  top: 20%;
+}
+.img-404 {
+  padding-top: 50px;
+  width: 30vw;
+}
+@media (max-width: 860px) {
+  .text-box {
+    padding-top: 10%;
+  }
+  .img-404 {
+    width: 70vw;
+  }
+}

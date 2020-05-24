@@ -1,0 +1,19 @@
+.list {
+  margin: 15px 0 0;
+  padding: 0;
+}
+
+.item {
+  display: inline-block;
+  list-style: none;
+  margin-right: 20px;
+}
+
+.link {
+  color: #787a82;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #3997dc;
+}

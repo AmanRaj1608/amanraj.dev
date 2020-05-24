@@ -1,0 +1,39 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.left {
+  width: 300px;
+}
+
+.right {
+  flex: 1;
+  max-width: 700px;
+}
+
+.title {
+  color: #787a82;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 0 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    display: block;
+  }
+
+  .left {
+    display: block;
+    width: 100%;
+  }
+
+  .right {
+    display: block;
+    width: 100%;
+  }
+}
