@@ -1,10 +1,3 @@
-/**
- * SEO component that queries for data with
- *  Gatsby's useStaticQuery React hook
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import { useStaticQuery, graphql } from "gatsby";
 import React from "react";
 import PropTypes from "prop-types";
@@ -56,6 +49,10 @@ const SEO = ({ description, lang, meta, title }) => {
         {
           property: `og:type`,
           content: `website`,
+        },
+        {
+          property: `og:url`,
+          content: `https://amanraj1608.ml/`,
         },
         {
           name: `twitter:card`,

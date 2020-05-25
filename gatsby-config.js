@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Developer`,
-    description: `Student - Full-Stack Developer`,
+    description: `Aman Raj amanraj1608 IIITV otaku AmanRaj1608`,
     author: `@amanraj1608`,
   },
   plugins: [
@@ -11,6 +11,12 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-167548486-2",
       },
     },
     `gatsby-transformer-sharp`,
