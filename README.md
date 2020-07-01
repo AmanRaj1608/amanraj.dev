@@ -1,7 +1,13 @@
-# Portfolio
+<h1 align="center">Portfolio</h1>
+<hr>
+<p align="center"><img src="./insight.png" align="center" ></p>
 
-Personal site built using
+<hr>
+
+Webpage built using -
 
 - React
 - GatsbyJS
 - Netlify
+
+<hr>
