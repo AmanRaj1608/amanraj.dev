@@ -67,7 +67,8 @@ nav {
   display: none;
 }
 .logo {
-  height: 20px;
+  width: 20px;
+  border-radius: 50%;
   vertical-align: text-top;
   margin-right: 10px;
 }
@@ -319,4 +320,15 @@ section .follow a {
 section .follow a img {
   height: 25px;
   margin-right: 5px;
+}
+.about_body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.about_img {
+  margin: 20px auto;
+  max-width: 300px;
+  height: auto;
+  width: auto;
 }

@@ -1,5 +1,4 @@
 import Navbar from '../components/Navbar'
-import Link from 'next/link'
 import Head from 'next/head'
 
 export default function Index() {
@@ -13,7 +12,7 @@ export default function Index() {
         <div className="heading">
           <div className="left_sec">
             <img
-              src="https://github.com/AmanRaj1608.png"
+              src="/aman.jpg"
               alt="Aman"
               className="my_img"
               draggable="false"

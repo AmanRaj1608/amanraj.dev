@@ -10,7 +10,7 @@ export default function Layout() {
       <Link href="/">
         <a className="nav__name" href="/">
           <img
-            src="logo.jpg"
+            src="/icons/logo.jpg"
             alt="Aman's logo"
             className="logo"
           />
@@ -31,7 +31,7 @@ export default function Layout() {
         </li>
         <li>
           <Link href="http://aman-ki-baat.vercel.app/">
-            <a href="http://aman-ki-baat.vercel.app/">Blog</a>
+            <a target="blank" href="http://aman-ki-baat.vercel.app/">Blog</a>
           </Link>
         </li>
         <li>
