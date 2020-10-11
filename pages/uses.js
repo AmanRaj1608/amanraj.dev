@@ -13,6 +13,8 @@ export default function Uses() {
       <main>
         <section id="intro">
           <h1>Uses</h1>
+          <h4> Will update on next weekend...
+          </h4>
         </section>
       </main>
     </React.Fragment>

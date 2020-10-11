@@ -1,6 +1,6 @@
 const easterEgg = String.raw`%c
 ⚡ Welcome to my world 🌊
-Source code - github.com/amanraj1608 
+Source code - github.com/AmanRaj1608/amanraj1608.github.io
 ___________
 ||         ||            _______
 ||ASCII ART||           | _____ |

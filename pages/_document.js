@@ -1,4 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
+import { GA_TRACKING_ID } from '../lib/gtag';
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -10,29 +11,51 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-        {/* Import Images */}
-        <link rel="shortcut icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png" />
-        <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png" />
-        <link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png" />
-        <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png" />
-        <link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png" />
-        <link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png" />
-        <link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png" />
-        <link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png" />
-        <link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png" />
-        <link rel="icon" type="image/png" sizes="192x192" href="img/android-icon-192x192.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png" />
-        <link rel="manifest" href="/manifest.json" />
-        <meta name="msapplication-TileColor" content="#ffffff" />
-        <meta name="msapplication-TileImage" content="img/ms-icon-144x144.png" />
-        <meta name="theme-color" content="#ffffff"></meta>
-        {/* Import CSS  and fonts*/}
-        <link rel="stylesheet" type="text/css" href="/nprogress.css" />
-        <link rel="stylesheet" type="text/css" href="/main.css" />
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=PT+Mono&display=swap" rel="stylesheet" />
+          {/* Import Images */}
+
+          <link rel="shortcut icon" href="/favicon.ico" />
+          <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+          <meta name="description" content="Software Engineer | Full Stack Developer" />
+          <meta name="mobile-web-app-capable" content="yes" />
+          <meta name="apple-mobile-web-app-capable" content="yes" />
+          <link rel="manifest" href="/manifest.json" />
+          <meta name="keywords" content="Aman, Raj, Aman Raj, aman raj, amanraj1608, AmanRaj1608, aman raj iiitv, Aman Raj Hapramp" />
+          <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+          <meta name="msapplication-TileColor" content="#0f3057" />
+          <meta name="msapplication-TileImage" content="icons/icon-192x192.png" />
+          <meta name="theme-color" content="#0f3057"></meta>
+
+          {/* Open Graph general (Facebook, Pinterest & Google+) */}
+          <meta property="og:title" content="Software Engineer | Full Stack Developer" />
+          <meta property="og:description" content="Aman Raj: Software Engineer | Full Stack Developer" />
+          <meta property="og:image" content="/icons/icon-192x192.png" />
+          <meta property="og:url" content="http://amanraj1608.netlify.app/" />
+          <meta property="og:site_name" content="AmanRaj1608" />
+          <meta property="og:type" content="website" />
+
+          {/* Import CSS  and fonts*/}
+          <link rel="stylesheet" type="text/css" href="/nprogress.css" />
+          <link rel="stylesheet" type="text/css" href="/main.css" />
+
+          {/* Global Site Tag (gtag.js) - Google Analytics */}
+          <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_TRACKING_ID}', {
+              page_path: window.location.pathname,
+            });
+          `,
+            }}
+          />
+
+          <link rel="prefetch" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=PT+Mono&display=swap" as="font" type="font" crossOrigin="true" />
         </Head>
         <body>
           <Main />
