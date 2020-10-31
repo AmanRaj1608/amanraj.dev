@@ -5,7 +5,7 @@ import Head from 'next/head'
 export default function Uses() {
 
   return (
-    <React.Fragment>
+    <>
       <Head>
         <title>Uses · Aman Raj</title>
       </Head>
@@ -17,6 +17,6 @@ export default function Uses() {
           </h4>
         </section>
       </main>
-    </React.Fragment>
+    </>
   )
 }

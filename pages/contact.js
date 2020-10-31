@@ -4,7 +4,7 @@ import Head from 'next/head'
 export default function Contact() {
 
   return (
-    <React.Fragment>
+    <>
       <Head>
         <title>Contact · Aman Raj</title>
       </Head>
@@ -40,7 +40,7 @@ export default function Contact() {
           </div>
         </section>
       </main>
-    </React.Fragment>
+    </>
   )
 }
 const social = [

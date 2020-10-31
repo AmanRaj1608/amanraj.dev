@@ -1,5 +1,5 @@
 import Router from 'next/router';
-import { useEffect } from 'react';
+import React from 'react';
 import Head from 'next/head';
 import * as gtag from '../lib/gtag';
 import NProgress from 'nprogress';
