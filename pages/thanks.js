@@ -13,8 +13,8 @@ export default function Index() {
         <section id="intro">
           <h1>Thanks! ❤️</h1>
           <p>
-            I am truly grateful to all the people that have supported me and my endeavours in development,
-            which enables me to continue building free and open source software.
+            I am truly grateful to all the people that have supported me and my endeavours in development.
+            Thanks to everyone who supported me to continue learning.
           </p>
 
           <h2>Sponsors</h2>

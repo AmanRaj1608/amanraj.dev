@@ -10,7 +10,7 @@ export default function Index() {
         <title>Aman Raj · AmanRaj1608</title>
       </Head>
       <Navbar />
-      <main>
+      <main style={{padding: "1vh"}}>
         <div className="heading">
           <div className="left_sec">
             <Image

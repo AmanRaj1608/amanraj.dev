@@ -356,7 +356,10 @@ h2.title {
     padding-top: 30px;
   }
   #blue_text {
-    font-size: 25px;
+    font-size: 23px;
+  }
+  .description {
+    font-size: 20px;
   }
 }
 .achi {
@@ -542,7 +545,7 @@ strong {
 .project_one_desc {
   margin: 1rem 0;
   font-size: 14px;
-  font-style: italic;
+  /* font-style: italic; */
   font-weight: 400;
 }
 

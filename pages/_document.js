@@ -15,7 +15,7 @@ class MyDocument extends Document {
           {/* Import Images */}
           <link rel="shortcut icon" href="/favicon.ico" />
           <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
-          <meta name="description" content="student, software engineer, developer" />
+          <meta name="description" content="student, software engineer" />
           <meta name="mobile-web-app-capable" content="yes" />
           <meta name="apple-mobile-web-app-capable" content="yes" />
           <link rel="manifest" href="/manifest.json" />
