@@ -9,9 +9,9 @@ export default function Contact() {
         <title>Contact · Aman Raj</title>
       </Head>
       <Navbar />
-      <main>
+      <main style={{ maxWidth: "800px" }} >
         <section id="intro">
-          <h1>Contact</h1>
+          <h1>Contact ☎️</h1>
           <em>Open for work.</em>
           <p>If you're looking to get ahold of me, you can send me an email at <a className="hover_eff" href="mailto:archanaamanraj@gmail.com">archanaamanraj@gmail.com</a>.
           </p>

@@ -11,31 +11,29 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          {/* Import Images */}
 
+          {/* Import Images */}
           <link rel="shortcut icon" href="/favicon.ico" />
           <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
-          <meta name="description" content="Software Engineer | Full Stack Developer" />
+          <meta name="description" content="student, software engineer, developer" />
           <meta name="mobile-web-app-capable" content="yes" />
           <meta name="apple-mobile-web-app-capable" content="yes" />
           <link rel="manifest" href="/manifest.json" />
-          <meta name="keywords" content="Aman, Raj, Aman Raj, aman raj, amanraj1608, AmanRaj1608, aman raj iiitv, Aman Raj Hapramp" />
-          <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
-          <meta name="msapplication-TileColor" content="#0f3057" />
+          <meta name="keywords" content="Aman, Raj, Aman Raj, amanraj1608, AmanRaj1608, aman raj iiitv, Aman Raj Hapramp, Aman Raj GoSocial" />
+          <meta name="msapplication-TileColor" content="#fa7f72" />
           <meta name="msapplication-TileImage" content="icons/icon-192x192.png" />
-          <meta name="theme-color" content="#0f3057"></meta>
+          <meta name="theme-color" content="#389393"></meta>
 
           {/* Open Graph general (Facebook, Pinterest & Google+) */}
-          <meta property="og:title" content="Software Engineer | Full Stack Developer" />
-          <meta property="og:description" content="Aman Raj: Software Engineer | Full Stack Developer" />
+          <meta property="og:title" content="Aman Raj" />
+          <meta property="og:description" content="student, software engineer, developer" />
           <meta property="og:image" content="/icons/icon-192x192.png" />
-          <meta property="og:url" content="http://amanraj1608.netlify.app/" />
           <meta property="og:site_name" content="AmanRaj1608" />
           <meta property="og:type" content="website" />
 
           {/* Import CSS  and fonts*/}
-          <link rel="stylesheet" type="text/css" href="/nprogress.css" />
-          <link rel="stylesheet" type="text/css" href="/main.css" />
+          <link rel="preconnect" rel="stylesheet" type="text/css" href="/nprogress.css" />
+          <link rel="preconnect" rel="stylesheet" type="text/css" href="/main.css" />
 
           {/* Global Site Tag (gtag.js) - Google Analytics */}
           <script

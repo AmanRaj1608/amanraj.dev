@@ -45,8 +45,8 @@ export default function Layout() {
           </Link>
         </li>
         <li>
-          <Link href="/uses">
-            <a className={router.pathname == "/uses" ? "nav__link--active" : ""} href="/uses">Uses</a>
+          <Link href="/thanks">
+            <a className={router.pathname == "/thanks" ? "nav__link--active" : ""} href="/thanks">Thanks</a>
           </Link>
         </li>
       </ul>

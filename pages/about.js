@@ -24,30 +24,30 @@ export default function Uses() {
           </p>
         </section>
         <section className="about_body">
-            <img
-              src="/img/fam.jpg"
-              alt="Aman"
-              className="about_img"
-              draggable="false"
-            />
-            <img
-              src="/img/me.jpg"
-              alt="Aman"
-              className="about_img"
-              draggable="false"
-            />
-            <img
-              src="/img/har.jpg"
-              alt="Aman"
-              className="about_img"
-              draggable="false"
-            />
-            <img
-              src="/img/ok.jpg"
-              alt="Aman"
-              className="about_img"
-              draggable="false"
-            />
+          <img
+            src="/img/fam.jpg"
+            alt="Aman"
+            className="about_img"
+            draggable="false"
+          />
+          <img
+            src="/img/me.jpg"
+            alt="Aman"
+            className="about_img"
+            draggable="false"
+          />
+          <img
+            src="/img/har.jpg"
+            alt="Aman"
+            className="about_img"
+            draggable="false"
+          />
+          <img
+            src="/img/ok.jpg"
+            alt="Aman"
+            className="about_img"
+            draggable="false"
+          />
         </section>
       </main>
     </>

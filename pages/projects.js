@@ -11,7 +11,7 @@ export default function Projects({ projectList }) {
       <Navbar />
       <main>
         <section className="projects_intro" id="intro">
-          <h1 >Projects</h1>
+          <h1>🏗️ Projects</h1>
           <em>
             List of all the projects I have built or contributed to.
           </em>
