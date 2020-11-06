@@ -14,20 +14,20 @@ class MyDocument extends Document {
 
           {/* Import Images */}
           <link rel="shortcut icon" href="/favicon.ico" />
-          <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+          <link rel="apple-touch-icon" href="/icons/4.webp" />
           <meta name="description" content="student, software engineer" />
           <meta name="mobile-web-app-capable" content="yes" />
           <meta name="apple-mobile-web-app-capable" content="yes" />
           <link rel="manifest" href="/manifest.json" />
           <meta name="keywords" content="Aman, Raj, Aman Raj, amanraj1608, AmanRaj1608, aman raj iiitv, Aman Raj Hapramp, Aman Raj GoSocial" />
           <meta name="msapplication-TileColor" content="#fa7f72" />
-          <meta name="msapplication-TileImage" content="icons/icon-192x192.png" />
+          <meta name="msapplication-TileImage" content="/icons/4.webp" />
           <meta name="theme-color" content="#389393"></meta>
 
           {/* Open Graph general (Facebook, Pinterest & Google+) */}
           <meta property="og:title" content="Aman Raj" />
           <meta property="og:description" content="student, software engineer, developer" />
-          <meta property="og:image" content="/icons/icon-192x192.png" />
+          <meta property="og:image" content="/icons/4.webp" />
           <meta property="og:site_name" content="AmanRaj1608" />
           <meta property="og:type" content="website" />
 

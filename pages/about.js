@@ -1,5 +1,6 @@
 import Navbar from '../components/Navbar'
 import Head from 'next/head'
+import Image from 'next/image'
 
 export default function Uses() {
 
@@ -24,29 +25,32 @@ export default function Uses() {
           </p>
         </section>
         <section className="about_body">
-          <img
+          <Image
             src="/img/fam.jpg"
             alt="Aman"
             className="about_img"
-            draggable="false"
+            unsized
           />
-          <img
+          <Image
             src="/img/me.jpg"
             alt="Aman"
             className="about_img"
             draggable="false"
+            unsized
           />
-          <img
+          <Image
             src="/img/har.jpg"
             alt="Aman"
             className="about_img"
             draggable="false"
+            unsized
           />
-          <img
+          <Image
             src="/img/ok.jpg"
             alt="Aman"
             className="about_img"
             draggable="false"
+            unsized
           />
         </section>
       </main>

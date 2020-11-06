@@ -148,6 +148,11 @@ main {
   overflow-x: hidden;
   max-width: 1000px;
 }
+@media screen and (max-width: 480px) {
+  main {
+    margin: 0vh auto;
+  }
+}
 .heading {
   margin-bottom: 60px;
   display: flex;

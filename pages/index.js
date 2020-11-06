@@ -77,7 +77,6 @@ export default function Index() {
                 <p className="small" style={{ margin: "15px 0px 0px 0px" }}>
                   🏆 Won 1.25lakhs cash Prize. Summer Intern oppurtunity at NIC.
                   <br />
-                  🌟 Also our name got mentioned on computers.org IEEE.
                 </p>
               </p>
               <div className="achi_used">
@@ -143,7 +142,7 @@ export default function Index() {
                   Winners in HackIIITV 2019
               </a>
               </div>
-              <p>An inter institute level hackathon by <strong>IIIT Vadodara</strong>.
+              <p>An intra institute level hackathon by <strong>IIIT Vadodara</strong>.
               We designed a real-time communication app for the specially-abled.
               <br />
                 <span className="small" style={{ margin: "15px 0px 0px 0px" }}>

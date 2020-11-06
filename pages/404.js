@@ -11,7 +11,7 @@ export default function Index() {
       <Navbar />
       <main style={{ maxWidth: "800px" }} >
         <section id="intro">
-          
+          404
         </section>
       </main>
       <Footer />

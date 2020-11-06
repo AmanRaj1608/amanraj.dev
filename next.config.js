@@ -3,6 +3,8 @@ const withOffline = require('next-offline')
 module.exports = withOffline({
   images: {
     domains: ['avatars1.githubusercontent.com'],
+    path: '/_next/image',
+    loader: 'default',
   },
   workboxOpts: {
     runtimeCaching: [
