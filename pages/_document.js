@@ -31,6 +31,13 @@ class MyDocument extends Document {
           <meta property="og:site_name" content="AmanRaj1608" />
           <meta property="og:type" content="website" />
 
+          {/* Open Graph general (Twitter) */}
+          <meta name="twitter:card" content="Aman Raj" />
+          <meta name="twitter:site" content="@AmanRaj1608" />
+          <meta name="twitter:title" content="Aman Raj Portfolio" />
+          <meta name="twitter:description" content="student, software engineer, developer" />
+          <meta name="twitter:image" content="/icons/4.jpg" />
+
           {/* Import CSS  and fonts*/}
           <link rel="preconnect" rel="stylesheet" type="text/css" href="/nprogress.css" />
           <link rel="preconnect" rel="stylesheet" type="text/css" href="/main.css" />
