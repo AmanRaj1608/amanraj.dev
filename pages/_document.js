@@ -19,7 +19,6 @@ class MyDocument extends Document {
           <meta name="mobile-web-app-capable" content="yes" />
           <meta name="apple-mobile-web-app-capable" content="yes" />
           <link rel="manifest" href="/manifest.json" />
-          <meta name="keywords" content="Aman, Raj, Aman Raj, amanraj1608, AmanRaj1608, aman raj iiitv, Aman Raj Hapramp, Aman Raj GoSocial" />
           <meta name="msapplication-TileColor" content="#fa7f72" />
           <meta name="msapplication-TileImage" content="/icons/4.jpg" />
           <meta name="theme-color" content="#389393"></meta>
@@ -28,12 +27,11 @@ class MyDocument extends Document {
           <meta property="og:title" content="Aman Raj" />
           <meta property="og:description" content="student, software engineer, developer" />
           <meta property="og:image" content="/icons/4.jpg" />
-          <meta property="og:site_name" content="AmanRaj1608" />
-          <meta property="og:type" content="website" />
+          <meta property="og:url" content="AmanRaj1608" />
+          <meta property="og:type" content="blog" />
 
           {/* Open Graph general (Twitter) */}
           <meta name="twitter:card" content="Aman Raj" />
-          <meta name="twitter:site" content="@AmanRaj1608" />
           <meta name="twitter:title" content="Aman Raj Portfolio" />
           <meta name="twitter:description" content="student, software engineer, developer" />
           <meta name="twitter:image" content="/icons/4.jpg" />
