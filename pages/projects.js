@@ -1,10 +1,11 @@
-import Navbar from '../components/Navbar'
+import React from 'react'
 import Head from 'next/head'
+import Navbar from '../components/Navbar'
 
 export default function Projects({ projectList }) {
 
   return (
-    <>
+    <React.Fragment>
       <Head>
         <title>Projects · Aman Raj</title>
       </Head>
@@ -36,7 +37,7 @@ export default function Projects({ projectList }) {
           }
         </section>
       </main>
-    </>
+    </React.Fragment>
   )
 }
 

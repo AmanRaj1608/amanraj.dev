@@ -19,8 +19,8 @@
 body,
 html {
   font-family: "Open Sans", sans-serif;
-  background: #262f42;
-  color: #e7e7e7;
+  background: #121116;
+  color: hsla(0, 0%, 100%, 0.88);
   width: 100%;
   min-height: 100vh;
   font-size: 16px;
@@ -34,14 +34,23 @@ html {
   -webkit-box-direction: normal;
   flex-direction: column;
 }
+/* .alwaysTop {
+  background: linear-gradient(to right, rgb(80, 250, 123), rgb(21, 101, 192));
+  position: fixed;
+  z-index: 1031;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+} */
 mark {
   background: #ffdf6e;
-  color: #e7e7e7;
+  color: hsla(0, 0%, 100%, 0.88);
   padding: 1px;
 }
 ::selection {
-  background: #ffdf6e;
-  color: #e7e7e7;
+  background: #dc143c;
+  color: hsla(0, 0%, 100%, 0.88);
 }
 /* Navbar */
 a {
@@ -111,14 +120,13 @@ nav a:before {
   display: block;
   bottom: 0;
   left: 0;
-  height: 25%;
+  height: 20%;
   width: 100%;
-  background: rgb(0, 123, 255, 0.3);
-  -webkit-transition: all 0.1s linear;
+  background: rgb(32, 178, 170, 0.3);
   transition: all 0.1s linear;
 }
 nav a.nav__link--active:before {
-  border-bottom: 3px solid rgb(52, 133, 255);
+  border-bottom: 3px solid lightseagreen;
 }
 nav a:focus:before,
 nav a:hover:before {
@@ -198,10 +206,11 @@ h2.title {
   font-size: 47px;
   font-weight: 700;
   padding: 10px 0;
+  color: tomato;
 }
 #blue_text {
   padding: 0;
-  color: #007bff;
+  color: hotpink;
   font-weight: 400;
   font-size: 40px;
 }
@@ -214,7 +223,7 @@ h2.title {
   border: none;
   width: 100%;
   height: 3px;
-  background: #acdbdf;
+  background: linear-gradient(to right, rgb(80, 250, 123), rgb(21, 101, 192));
   margin: 5vh auto;
   max-width: 1000px;
 }
@@ -224,20 +233,15 @@ h2.title {
 
 /* Home Exp */
 .semi {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   padding: 40px 0px;
 }
 .semi_title {
-  -ms-flex-negative: 0;
   flex-shrink: 0;
-  width: 180px;
-  margin-right: 70px;
-  color: #007bff;
+  width: 190px;
+  margin-right: 60px;
+  color: tomato;
   text-transform: uppercase;
   text-align: right;
   font-weight: 700;
@@ -254,16 +258,16 @@ h2.title {
   margin-bottom: 25px;
 }
 .iiitv {
-  color: #e7e7e7;
+  color: #edc988;
   text-decoration: none;
 }
 .iiitv:hover {
-  border-bottom: 2px solid #e7e7e7;
+  border-bottom: 2px solid hsla(0, 0%, 100%, 0.88);
 }
 .underline-link {
   position: relative;
   display: inline-block;
-  color: #e7e7e7;
+  color: hsla(0, 0%, 100%, 0.88);
 }
 .underline-link:after {
   position: absolute;
@@ -283,7 +287,7 @@ h2.title {
 }
 .underline-link:focus:after,
 .underline-link:hover:after {
-  background: #e7e7e7;
+  background: hsla(0, 0%, 100%, 0.88);
   height: 2px;
   border-radius: 3px;
   opacity: 1;
@@ -313,8 +317,8 @@ h2.title {
   position: absolute;
   width: 25px;
   height: 25px;
-  -webkit-animation: pulsate 2s ease-out;
-  animation: pulsate 2s ease-out;
+  -webkit-animation: pulsate 1.5s ease-out;
+  animation: pulsate 1.5s ease-out;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
   opacity: 0;
@@ -334,7 +338,6 @@ h2.title {
 
 @keyframes pulsate {
   0% {
-    -webkit-transform: scale(0.1, 0.1);
     transform: scale(0.1, 0.1);
     opacity: 0;
   }
@@ -342,7 +345,6 @@ h2.title {
     opacity: 1;
   }
   100% {
-    -webkit-transform: scale(1.2, 1.2);
     transform: scale(1.2, 1.2);
     opacity: 0;
   }
@@ -371,10 +373,29 @@ h2.title {
   max-width: 650px;
   margin-bottom: 50px;
 }
+
+.expi__name {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  color: hotpink;
+}
+.achi_name__sub {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #ffdf6e;
+}
 .achi_name {
   font-size: 1.1rem;
   margin-bottom: 10px;
-  color: #ee6f57;
+  color: hotpink;
+}
+@media screen and (max-width: 480px) {
+  .expi__name {
+    font-size: 1.3rem;
+  }
+  .achi_name__sub {
+    font-size: 1rem;
+  }
 }
 .achi p {
   font-size: 1rem;
@@ -386,6 +407,16 @@ h2.title {
   display: inline-block;
   margin-top: 15px;
 }
+.achi_list {
+  margin-bottom: 30px;
+}
+.achi_name__li {
+  height: unset;
+  margin: 2px 0 0 10px;
+  list-style-type: "→  ";
+  display: list-item;
+  line-height: 1.5;
+}
 .achi_used {
 }
 
@@ -394,14 +425,14 @@ h2.title {
 }
 .achi_used .achi_used__item {
   display: inline-block;
-  margin: 3px 3px 3px 0;
-  font-family: Inconsolata, monospace;
+  margin: 3px 5px 3px 0;
+  /* font-family: Inconsolata, monospace; */
   font-size: 0.75rem;
   font-weight: 700;
   padding: 2px 7px;
   border-radius: 3px;
-  color: #c6cfff;
-  border: 1px solid #c6cfff;
+  color: #00917c;
+  border: 1px solid #00917c;
   background: 0 0;
 }
 
@@ -442,7 +473,7 @@ h2.title {
 /* Common */
 section h1 {
   font-size: 40px;
-  color: #ee6f57;
+  color: lightseagreen;
   margin-bottom: 1rem;
 }
 section h2 {
@@ -450,7 +481,7 @@ section h2 {
   margin: 40px 0 20px;
   border-bottom: 1px solid #007bff;
   padding-bottom: 5px;
-  color: #e7e7e7;
+  color: hsla(0, 0%, 100%, 0.88);
 }
 section li {
   font-size: 17px;
@@ -466,18 +497,18 @@ section li {
 section li a,
 section p a {
   text-decoration: underline;
-  color: #ee6f57;
+  color: #c6cfff;
 }
 section#intro em {
   font-style: normal;
   font-size: 20px;
   margin: 10px 0px;
   padding-left: 10px;
-  border-left: 3px solid rgb(215, 56, 94, 0.3);
+  border-left: 3px solid teal;
   display: inline-block;
 }
 section p {
-  color: #afafbf;
+  color: hsla(0, 0%, 100%, 0.88);
   font-size: 18px;
   margin: 30px 0;
   line-height: 1.5;
@@ -486,7 +517,8 @@ section p {
   font-weight: 400;
   font-size: 18px;
   white-space: nowrap;
-  color: #e7e7e7;
+  color: hsla(0, 0%, 100%, 0.88);
+  text-decoration: none;
   padding: 1px;
 }
 .hover_eff:before {
@@ -497,8 +529,7 @@ section p {
   left: 0;
   height: 20%;
   width: 100%;
-  background: rgb(0, 123, 255, 0.8);
-  -webkit-transition: all 0.15s linear;
+  background: rgb(80, 250, 123, 0.5);
   transition: all 0.15s linear;
 }
 .hover_eff:focus:before,
@@ -507,7 +538,7 @@ section p {
   color: #fff;
 }
 strong {
-  color: #e7e7e7;
+  color: #edc988;
   font-weight: 700;
 }
 
@@ -596,7 +627,7 @@ section .follow a img {
 
 /* Footer */
 .footer {
-  color: #e7e7e7;
+  color: hsla(0, 0%, 100%, 0.88);
   padding: 50px 80px;
   display: -webkit-box;
   display: -ms-flexbox;

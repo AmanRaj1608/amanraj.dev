@@ -9,13 +9,13 @@ export default function Contact() {
         <title>Contact · Aman Raj</title>
       </Head>
       <Navbar />
-      <main style={{ maxWidth: "800px" }} >
+      <main style={{ maxWidth: "900px" }} >
         <section id="intro">
-          <h1>Contact ☎️</h1>
-          <em>Open for work.</em>
-          <p>If you're looking to get ahold of me, you can send me an email at <a className="hover_eff" href="mailto:archanaamanraj@gmail.com">archanaamanraj@gmail.com</a>.
+          <h1>Contact 📱📞</h1>
+          <p>If you're looking to get ahold of me, you can send me an email at <a href="mailto:archanaamanraj@gmail.com">archanaamanraj@gmail.com</a>.
           </p>
-          <p>Or you can ping me on <a className="hover_eff" href="https://t.me/amanraj1608">Telegram</a>.</p>
+          
+          <p>Or you can ping me on <a href="https://t.me/amanraj1608">Telegram</a>.</p>
 
           <p>I am also availabe at these following platforms. You can follow me here.</p>
 

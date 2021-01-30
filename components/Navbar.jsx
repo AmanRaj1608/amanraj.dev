@@ -17,7 +17,7 @@ export default function Layout() {
       Aman Raj <span>·</span> amanraj1608
     </a>
       </Link>
-
+      { /* <div className="alwaysTop"></div> */}
       <ul>
         <li>
           <Link href="/">
@@ -35,18 +35,13 @@ export default function Layout() {
           </Link>
         </li>
         <li>
-          <Link href="/contact">
-            <a className={router.pathname == "/contact" ? "nav__link--active" : ""} href="/contact">Contact</a>
-          </Link>
-        </li>
-        <li>
           <Link href="/about">
             <a className={router.pathname == "/about" ? "nav__link--active" : ""} href="/about">About</a>
           </Link>
         </li>
         <li>
-          <Link href="/thanks">
-            <a className={router.pathname == "/thanks" ? "nav__link--active" : ""} href="/thanks">Thanks</a>
+          <Link href="/contact">
+            <a className={router.pathname == "/contact" ? "nav__link--active" : ""} href="/contact">Contact</a>
           </Link>
         </li>
       </ul>

@@ -10,7 +10,7 @@ export default function Index() {
         <title>Aman Raj · AmanRaj1608</title>
       </Head>
       <Navbar />
-      <main style={{padding: "1vh"}}>
+      <main style={{ padding: "1vh" }}>
         <div className="heading">
           <div className="left_sec">
             <Image
@@ -60,18 +60,126 @@ export default function Index() {
         <hr className="break" />
 
         <section className="semi" >
-          <div className="semi_title">Achievements</div>
+          <div className="semi_title">Work Experience</div>
           <div className="semi_desc">
             <div className="achi">
 
               {/* 1 */}
+              <div className="expi__name">
+                Devfolio Ethereum India
+              </div>
+              <div className="achi_name__sub">
+                Fellowship (Jan'21 - Present)
+              </div>
+              <ul className="achi_list">
+                <li className="achi_name__li">
+                  Was selected in the top <strong>20 Web2 developers</strong> to learn and build Web3.
+                </li>
+                <li className="achi_name__li">
+                  Contributing to the <strong>Ethereum ecosystem</strong> under industry mentors.
+                </li>
+              </ul>
+
+              {/* 2 */}
+              <div className="expi__name">
+                Hapramp Studio
+              </div>
+              <div className="achi_name__sub">
+                Software Engineer Intern (Sep'20 - Present)
+              </div>
+              <ul className="achi_list">
+                <li className="achi_name__li">
+                  Building <a href="http://gosocial.io/" target=" _blank" rel="noopener noreferrer">gosocial.io</a>
+                </li>
+                <li className="achi_name__li">
+                  Working on Hapramp’s GoSocial product with <strong>500k+ downloads</strong>.
+                </li>
+                <li className="achi_name__li">
+                  Leveraged my knowledge of Next.js, Redux, and SSR to develop the product’s web
+                  version from scratch.
+                </li>
+              </ul>
+
+              {/* 3 */}
+              <div className="expi__name">
+                GDG Gandhinagar
+              </div>
+              <div className="achi_name__sub">
+                Frontend Engineer Intern (Sep'19 - Oct'19)
+              </div>
+              <ul className="achi_list">
+                <li className="achi_name__li">
+                  Worked in the core team to <strong>co-organize</strong> GDG Gandhinagar’s DevFest 19.
+                </li>
+                <li className="achi_name__li">
+                  Developed the webpage in Angular 7 in collaboration with the team.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <hr className="break" />
+
+        <section className="semi" >
+          <div className="semi_title">Achievements</div>
+          <div className="semi_desc">
+
+            {/* 0 */}
+            <div className="achi">
+              <div className="achi_name">
+                <a href="https://devpost.com/software/oceancaller" target="_blank" className="arrow-link">
+                  Ocean Protocol: Data Economy Challenge
+                </a>
+              </div>
+              <p>Hosted by <strong>Ocean Protocol</strong> hackathon created decentralized Caller Id app.
+              <br />
+                <p className="small" style={{ margin: "15px 0px 0px 0px" }}>
+                  🌊 Won $2k prize for best integration into phone data as data service.
+              <br />
+                </p>
+              </p>
+              <div className="achi_used">
+                <span className="achi_used__item">Ethereum</span>
+                <span className="achi_used__item">Ocean Protocol</span>
+                <span className="achi_used__item">React-Native</span>
+                <span className="achi_used__item">Node.js</span>
+                <span className="achi_used__item">Flask</span>
+              </div>
+            </div>
+
+            {/* 0 */}
+            <div className="achi">
+              <div className="achi_name">
+                <a href="https://medium.com/harmony-one/winners-of-the-hack-the-horizon-hackathon-ae04f95b71ab" target="_blank" className="arrow-link">
+                  Harmony One: Hack the Horizon
+                </a>
+              </div>
+              <p>Hosted by <strong>Harmony</strong> hackathon developed a product GitMony. GitMony uses <strong>Harmony Bridge</strong> and <strong>Chainlink oracle</strong>,
+              to deliver a completely decentralized platform to reward opensource contributors.
+              <br />
+                <p className="small" style={{ margin: "15px 0px 0px 0px" }}>
+                  ☮️ Won $2k second prize and other schwags.
+              <br />
+                </p>
+              </p>
+              <div className="achi_used">
+                <span className="achi_used__item">Chainlink</span>
+                <span className="achi_used__item">Harmony</span>
+                <span className="achi_used__item">Node.js</span>
+                <span className="achi_used__item">Next.js</span>
+                <span className="achi_used__item">Solidity</span>
+              </div>
+            </div>
+
+            {/* 1 */}
+            <div className="achi">
               <div className="achi_name">
                 <a href="https://www.computer.org/education/oracle_hackathon_2020" target="_blank" className="arrow-link">
-                  🏆 Winners at National Gov-TechThon 2020 🏆
+                  Goverment: Gov-TechThon 2020
                 </a>
               </div>
               <p>Hosted by <strong>IEEE Computer Society</strong> and <strong>National Informatics Center (NIC) India. </strong>
-
               We designed and implemented a prototype of Unsupervised Test app. All projects rights are given to NIC.
               <br />
                 <p className="small" style={{ margin: "15px 0px 0px 0px" }}>
@@ -95,8 +203,8 @@ export default function Index() {
                 </a>
               </div>
               <p>
-                Used Ethermint and Solidity to create hack. This was first blockchain specialised win for our team.
-                We !DevDemons won uder the special mentions category.
+                Won all India blockchain hackathon for developing an app using
+                cosmos <strong>Ethermint</strong> tech stack.
               <br />
                 <p className="small" style={{ margin: "15px 0px 0px 0px" }}>
                   🌟 Won $500 USD.
@@ -119,13 +227,18 @@ export default function Index() {
                   Runner Up in Eduthon
               </a>
               </div>
-              <p>A national-level hackathon by <strong>IIIT Lucknow</strong> on Devfolio. We designed and implemented a prototype of Unsupervised Test app.
-              <br />
+              <p>A national-level hackathon by <strong>IIIT Lucknow</strong> on Devfolio. Developed an application to 
+              conduct online examination offline.
+              {/**
+                <br />
                 <p className="small" style={{ margin: "15px 0px 0px 0px" }}>
                   🌟 Won 10k cash prize and devfolio schwag.
                 </p>
+                
+              */}
               </p>
-              <div className="achi_used">
+              {/**
+                <div className="achi_used">
                 <span className="achi_used__item">Matic</span>
                 <span className="achi_used__item">Solidity</span>
                 <span className="achi_used__item">React.js</span>
@@ -133,6 +246,7 @@ export default function Index() {
                 <span className="achi_used__item">Twilio</span>
                 <span className="achi_used__item">Portis</span>
               </div>
+              */}
             </div>
 
             {/* 4 */}
@@ -144,22 +258,26 @@ export default function Index() {
               </div>
               <p>An intra institute level hackathon by <strong>IIIT Vadodara</strong>.
               We designed a real-time communication app for the specially-abled.
-              <br />
+              {/**
+                <br />
                 <span className="small" style={{ margin: "15px 0px 0px 0px" }}>
                   ⭐ Won GitHub schwags.
                 </span>
+              */}
               </p>
-              <div className="achi_used">
+              {/**
+                <div className="achi_used">
                 <span className="achi_used__item">cnn-classifier</span>
                 <span className="achi_used__item">Django</span>
               </div>
+              */}
             </div>
 
             {/* 5 */}
             <div className="achi">
               <div className="achi_name">
                 <a href="https://www.teriin.org/olympiad/" target="_blank" className="arrow-link">
-                  7th rank in National Environment Olympiad 2014
+                  National Environment Olympiad 2014
                 </a>
               </div>
               <p>
@@ -168,6 +286,9 @@ export default function Index() {
             </div>
           </div>
         </section>
+
+        <hr className="break" />
+        
       </main>
       <Footer />
     </>
