@@ -32,7 +32,6 @@ export default function Uses() {
           <ul className="uses__list">
             <li>Acer Swift 5 (2019)</li>
             <li>MSI Optix G241 Monitor</li>
-            <li>Logitech MX Master</li>
             <li>Cosmic Byte CB-GK-11 Mechanical Keyboard</li>
             <li style={{ textDecoration: 'line-through' }}>HP 15 db1069AU</li>
           </ul>
