@@ -11,7 +11,7 @@ export default function Contact() {
       <Navbar />
       <main style={{ maxWidth: "900px" }} >
         <section id="intro">
-          <h1>Contact 📱📞</h1>
+          <h1>Contact</h1>
           <p>If you're looking to get ahold of me, you can send me an email at <a href="mailto:archanaamanraj@gmail.com">archanaamanraj@gmail.com</a>.
           </p>
           

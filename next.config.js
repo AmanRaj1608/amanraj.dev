@@ -2,7 +2,7 @@ const withOffline = require('next-offline')
 
 module.exports = withOffline({
   images: {
-    domains: ['avatars1.githubusercontent.com'],
+    domains: ['avatars1.githubusercontent.com', '/img'],
     path: '/_next/image',
     loader: 'default',
   },
