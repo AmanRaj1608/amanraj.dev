@@ -19,7 +19,6 @@ export default function Projects() {
           </em>
         </section>
         <section className="projects_list">
-          {console.log(projectList)}
           {
             projectList.map((ele, ind) => {
               return (
