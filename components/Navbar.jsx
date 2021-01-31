@@ -30,11 +30,6 @@ export default function Layout() {
           </Link>
         </li>
         <li>
-          <Link href="http://aman-ki-baat.vercel.app/">
-            <a target="blank" href="http://aman-ki-baat.vercel.app/">Blog</a>
-          </Link>
-        </li>
-        <li>
           <Link href="/uses">
             <a className={router.pathname == "/uses" ? "nav__link--active" : ""} href="/uses">Uses</a>
           </Link>
@@ -42,6 +37,11 @@ export default function Layout() {
         <li>
           <Link href="/contact">
             <a className={router.pathname == "/contact" ? "nav__link--active" : ""} href="/contact">Contact</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="http://aman-ki-baat.vercel.app/">
+            <a target="blank" href="http://aman-ki-baat.vercel.app/">Blog</a>
           </Link>
         </li>
       </ul>
