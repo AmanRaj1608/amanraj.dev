@@ -1,6 +1,6 @@
 import Navbar from '../components/Navbar'
 import Head from 'next/head'
-import Image from 'next/image'
+// import Image from 'next/image'
 
 export default function Uses() {
 
@@ -13,14 +13,13 @@ export default function Uses() {
       <main style={{ maxWidth: "900px" }}>
         <section id="intro">
           <h1>About</h1>
-          <em>Hi! I'm Aman, a third-year student at <a target="blank" className="hover_eff" href="http://iiitvadodara.ac.in/">@IIITV</a> .
-          I spend my day gaining attendance. I love watching Anime and reading manga in my free time.</em>
-          <p>I'm a motivated full-stack engineer who has experience building and scaling web applications. I'm also passionate about open source contributions.
-          I have a solid understanding of Data Structure and Algorithms. I'm good at database design and management.
-          I can write elegant code using Object-oriented paradigm.
-          </p>
+          <p>Hi! I'm Aman, a third-year student at <a href="http://iiitvadodara.ac.in/" target="_blank" rel="noopener noreferrer">IIIT V</a> .
+          I spend my day gaining attendance and night watching Anime.</p>
           <p>
             I love to travel and spend time with my family and friends.
+          </p>
+          <p>
+            Say hi to my <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer">Girlfreind</a>
           </p>
         </section>
         <section className="about_body">

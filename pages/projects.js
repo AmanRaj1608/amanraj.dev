@@ -23,34 +23,38 @@ export default function Projects() {
           {
             projectList.map((ele, ind) => {
               return (
-                <div class="project_one" key={ind}>
-                  <div class="project_top">
-                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" focusable="false" class="project_icon_file" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                <div className="project_one" key={ind}>
+                  <div className="project_top">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" focusable="false" className="project_icon_file" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
                       <path d="M20 6h-8l-2-2H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm0 12H4V8h16v10z"></path>
                     </svg>
-                    <div class="css-0">
-                      <button type="button" class="project_icon_open" aria-label="Open github link">
-                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" size="30" aria-hidden="true" focusable="false" height="30" width="30" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M256 32C132.3 32 32 134.9 32 261.7c0 101.5 64.2 187.5 153.2 217.9 1.4.3 2.6.4 3.8.4 8.3 0 11.5-6.1 11.5-11.4 0-5.5-.2-19.9-.3-39.1-8.4 1.9-15.9 2.7-22.6 2.7-43.1 0-52.9-33.5-52.9-33.5-10.2-26.5-24.9-33.6-24.9-33.6-19.5-13.7-.1-14.1 1.4-14.1h.1c22.5 2 34.3 23.8 34.3 23.8 11.2 19.6 
+                    <div className="css-0">
+                      <button type="button" className="project_icon_open" aria-label="Open github link">
+                        <a href={ele.githubLink} target="_blank" rel="noopener noreferrer">
+                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" size="30" aria-hidden="true" focusable="false" height="30" width="30" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M256 32C132.3 32 32 134.9 32 261.7c0 101.5 64.2 187.5 153.2 217.9 1.4.3 2.6.4 3.8.4 8.3 0 11.5-6.1 11.5-11.4 0-5.5-.2-19.9-.3-39.1-8.4 1.9-15.9 2.7-22.6 2.7-43.1 0-52.9-33.5-52.9-33.5-10.2-26.5-24.9-33.6-24.9-33.6-19.5-13.7-.1-14.1 1.4-14.1h.1c22.5 2 34.3 23.8 34.3 23.8 11.2 19.6 
                             26.2 25.1 39.6 25.1 10.5 0 20-3.4 25.6-6 2-14.8 7.8-24.9 14.2-30.7-49.7-5.8-102-25.5-102-113.5 0-25.1 8.7-45.6 23-61.6-2.3-5.8-10-29.2 2.2-60.8 0 0 1.6-.5 5-.5 8.1 0 26.4 3.1 56.6 24.1 17.9-5.1 37-7.6 56.1-7.7 19 .1 38.2 2.6 56.1 7.7 30.2-21 48.5-24.1 56.6-24.1 3.4 0 5 .5 5 .5 12.2 31.6 4.5 55 2.2 60.8 14.3 16.1 23 36.6 23 61.6 0 88.2-52.4 107.6-102.3 113.3 8 7.1 15.2 21.1 15.2 42.5 0 30.7-.3 55.5-.3 63 0 5.4 3.1 11.5 11.4 11.5 1.2 0 2.6-.1 4-.4C415.9 449.2 480 363.1 480 261.7 480 134.9 379.7 32 256 32z"></path></svg>
+                        </a>
                       </button>
-                      <button type="button" class="project_icon_open" aria-label="Open website">
-                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" size="30" aria-hidden="true" focusable="false" height="30" width="30" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M405.34 405.332H106.66V106.668H240V64H106.66C83.191 64 64 83.197 64 106.668v298.664C64 428.803 83.191 448 106.66 448h298.68c23.469 0 42.66-19.197 42.66-42.668V272h-42.66v133.332zM288 64v42.668h87.474L159.999 322.133l29.866 29.866 215.476-215.47V224H448V64H288z"></path></svg>
+                      <button type="button" className="project_icon_open" aria-label="Open website">
+                        <a href={ele.link} target="_blank" rel="noopener noreferrer">
+                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" size="30" aria-hidden="true" focusable="false" height="30" width="30" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M405.34 405.332H106.66V106.668H240V64H106.66C83.191 64 64 83.197 64 106.668v298.664C64 428.803 83.191 448 106.66 448h298.68c23.469 0 42.66-19.197 42.66-42.668V272h-42.66v133.332zM288 64v42.668h87.474L159.999 322.133l29.866 29.866 215.476-215.47V224H448V64H288z"></path></svg>
+                        </a>
                       </button>
                     </div>
                   </div>
-                  <p class="project_title">{ele.name}</p>
-                  <p class="project_desc">{ele.description}</p>
-                  <div class="project_last">
-                    <p class="project_last_text">{ele.language}</p>
-                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" focusable="false" class="project_last_icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                  <p className="project_title">{ele.name}</p>
+                  <p className="project_desc">{ele.description}</p>
+                  <div className="project_last">
+                    <p className="project_last_text">{ele.language}</p>
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" focusable="false" className="project_last_icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
                       <path d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3zM664.8 561.6l36.1 210.3L512 672.7 323.1 772l36.1-210.3-152.8-149L417.6 382 512 190.7 606.4 382l211.2 30.7-152.8 148.9z"></path>
                     </svg>
-                    <p class="project_last_text" style={{ marginLeft: 4 }}>{ele.stars}</p>
-                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" focusable="false" class="project_last_icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <p className="project_last_text" style={{ marginLeft: 4 }}>{ele.stars}</p>
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" focusable="false" className="project_last_icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
                       <path d="M752 100c-61.8 0-112 50.2-112 112 0 47.7 29.9 88.5 72 104.6v27.6L512 601.4 312 344.2v-27.6c42.1-16.1 72-56.9 72-104.6 0-61.8-50.2-112-112-112s-112 50.2-112 112c0 50.6 33.8 93.5 80 107.3v34.4c0 9.7 3.3 19.3 9.3 27L476 672.3v33.6c-44.2 15-76 56.9-76 106.1 0 61.8 50.2 112 112 112s112-50.2 112-112c0-49.2-31.8-91-76-106.1v-33.6l226.7-291.6c6-7.7 9.3-17.3 9.3-27v-34.4c46.2-13.8 80-56.7 80-107.3 0-61.8-50.2-112-112-112zM224 212a48.01 48.01 0 0 1 96 0 48.01 48.01 0 0 1-96 0zm336 600a48.01 48.01 0 0 1-96 0 48.01 48.01 0 0 1 96 0zm192-552a48.01 48.01 0 0 1 0-96 48.01 48.01 0 0 1 0 96z"></path></svg>
-                    <p class="project_last_text" style={{ marginLeft: 4 }}>{ele.forks}</p>
+                    <p className="project_last_text" style={{ marginLeft: 4 }}>{ele.forks}</p>
                   </div>
                 </div>
               )
@@ -115,8 +119,8 @@ const projectList = [
     "language": "JavaScript",
     "stars": "13",
     "forks": 0,
-    "link": "",
-    "githubLink": "https://github.com/BakaOtaku/oceancaller"
+    "link": "https://amanraj1608.github.io/Minimal-Audio-Visualizer/",
+    "githubLink": "https://github.com/AmanRaj1608/Minimal-Audio-Visualizer"
   },
   {
     "name": "cerebro-web-2020",

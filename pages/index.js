@@ -48,7 +48,7 @@ export default function Index() {
 
             <p> <strong>When I'm not in front of a 💻 screen</strong>, I’m probably watching Anime, listening music, watching random stuff on YouTube, or sleeping. </p>
 
-            <a className="status" href="/Aman_Raj.pdf" target=" _blank" rel="noopener noreferrer">
+            <a className="status" href="/Aman_Raj.pdf" target="_blank" rel="noopener noreferrer">
               <div className="status__light">
                 <div className="status__light__ring"></div>
                 <div className="status__light__led"></div> </div>
