@@ -40,15 +40,15 @@ export default function Layout() {
           </Link>
         </li>
         <li>
+          <Link href="https://aman-ki-baat.wtf">
+            <a href="https://aman-ki-baat.wtf">Blog</a>
+          </Link>
+        </li>
+        <li>
           <Link href="/contact">
             <a className={router.pathname == "/contact" ? "nav__link--active" : ""} href="/contact">Contact</a>
           </Link>
         </li>
-        {/*<li>
-          <Link href="http://aman-ki-baat.vercel.app/">
-            <a target="blank" href="http://aman-ki-baat.vercel.app/">Blog</a>
-          </Link>
-        </li>*/}
       </ul>
     </nav>
   )
