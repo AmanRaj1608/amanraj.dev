@@ -43,7 +43,7 @@ export default function Uses() {
           </ul>
           <h3 className="uses__title">Other Tech 🌐</h3>
           <ul className="uses__list">
-            <li>OnePlus Bullets</li>
+            <li>OnePlus Bullets 2</li>
             <li>Seagate Backup Plus Slim 2 TB</li>
             <li>Apple iPod touch (2016)</li>
           </ul>
