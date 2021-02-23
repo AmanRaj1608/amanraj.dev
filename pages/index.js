@@ -40,7 +40,7 @@ export default function Index() {
         <section className="semi" data-sr-id="0" >
           <div className="semi_title">Background</div>
           <div className="semi_desc">
-            <p> I'm currently a CSE undergraduate <mark>👨🏻‍🎓</mark> student at <strong><a className="iiitv" href="http://iiitvadodara.ac.in/" target="_blank">
+            <p> I'm currently a CSE undergraduate <mark>👨🏻‍🎓</mark> student at <strong><a className="iiitv" href="http://iiitvadodara.ac.in/" rel="noopener noreferrer" target="_blank">
               Indian Institute of Information Technology Vadodara</a></strong> and a Software Engineer 👨🏻‍💻 building applications with some awesome people. </p>
 
             <p> I'm a motivated <strong>full-stack engineer</strong> who has experience building and scaling web applications. I have also experience in technologies like <strong> Blockchain and Machine learning.</strong>
@@ -128,7 +128,7 @@ export default function Index() {
             {/* 0 */}
             <div className="achi">
               <div className="achi_name">
-                <a href="https://devpost.com/software/oceancaller" target="_blank" className="arrow-link">
+                <a href="https://devpost.com/software/oceancaller" target="_blank" rel="noopener noreferrer" className="arrow-link">
                   Ocean Protocol: Data Economy Challenge
                 </a>
               </div>
@@ -151,7 +151,7 @@ export default function Index() {
             {/* 0 */}
             <div className="achi">
               <div className="achi_name">
-                <a href="https://medium.com/harmony-one/winners-of-the-hack-the-horizon-hackathon-ae04f95b71ab" target="_blank" className="arrow-link">
+                <a href="https://medium.com/harmony-one/winners-of-the-hack-the-horizon-hackathon-ae04f95b71ab" rel="noopener noreferrer" target="_blank" className="arrow-link">
                   Harmony One: Hack the Horizon
                 </a>
               </div>
@@ -175,7 +175,7 @@ export default function Index() {
             {/* 1 */}
             <div className="achi">
               <div className="achi_name">
-                <a href="https://www.computer.org/education/oracle_hackathon_2020" target="_blank" className="arrow-link">
+                <a href="https://www.computer.org/education/oracle_hackathon_2020" target="_blank" rel="noopener noreferrer" className="arrow-link">
                   Goverment: Gov-TechThon 2020
                 </a>
               </div>
@@ -198,7 +198,7 @@ export default function Index() {
             {/* 2 */}
             <div className="achi">
               <div className="achi_name">
-                <a href="https://www.hackerearth.com/challenges/hackathon/hackatom-india/" target="_blank" className="arrow-link">
+                <a href="https://www.hackerearth.com/challenges/hackathon/hackatom-india/" target="_blank" rel="noopener noreferrer" className="arrow-link">
                   Winners at HackAtom India: Build The Cosmos
                 </a>
               </div>
@@ -223,11 +223,11 @@ export default function Index() {
             {/* 3 */}
             <div className="achi">
               <div className="achi_name">
-                <a href="https://devfolio.co/submissions/offsubmit" target="_blank" className="arrow-link">
+                <a href="https://devfolio.co/submissions/offsubmit" target="_blank" rel="noopener noreferrer" className="arrow-link">
                   Runner Up in Eduthon
               </a>
               </div>
-              <p>A national-level hackathon by <strong>IIIT Lucknow</strong> on Devfolio. Developed an application to 
+              <p>A national-level hackathon by <strong>IIIT Lucknow</strong> on Devfolio. Developed an application to
               conduct online examination offline.
               {/**
                 <br />
@@ -252,7 +252,7 @@ export default function Index() {
             {/* 4 */}
             <div className="achi">
               <div className="achi_name">
-                <a href="https://www.linkedin.com/posts/amanraj1608_hackiiitv-hackiiitv-activity-6588635125444116480-dTHg/" target="_blank" className="arrow-link">
+                <a href="https://www.linkedin.com/posts/amanraj1608_hackiiitv-hackiiitv-activity-6588635125444116480-dTHg/" target="_blank" rel="noopener noreferrer" className="arrow-link">
                   Winners in HackIIITV 2019
               </a>
               </div>
@@ -276,7 +276,7 @@ export default function Index() {
             {/* 5 */}
             <div className="achi">
               <div className="achi_name">
-                <a href="https://www.teriin.org/olympiad/" target="_blank" className="arrow-link">
+                <a href="https://www.teriin.org/olympiad/" target="_blank" rel="noopener noreferrer" className="arrow-link">
                   National Environment Olympiad 2014
                 </a>
               </div>
@@ -288,7 +288,7 @@ export default function Index() {
         </section>
 
         <hr className="break" />
-        
+
       </main>
       <Footer />
     </>

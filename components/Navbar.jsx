@@ -11,39 +11,47 @@ export default function Layout() {
         <a className="nav__name" href="/">
           <img
             src="/icons/logo.jpg"
-            alt="Aman's logo"
+            alt="logo"
             className="logo"
+            width="20px"
+            height="20px"
           />
       Aman Raj <span>·</span> amanraj1608
     </a>
       </Link>
       { /* <div className="alwaysTop"></div> */}
       <ul>
+
         <li>
           <Link href="/">
             <a className={router.pathname == "/" ? "nav__link--active" : ""}>Home</a>
           </Link>
         </li>
+
         <li>
           <Link href="/projects">
             <a className={router.pathname == "/projects" ? "nav__link--active" : ""} href="/projects">Projects</a>
           </Link>
         </li>
-        <li>
-          <Link href="/uses">
-            <a className={router.pathname == "/uses" ? "nav__link--active" : ""} href="/uses">Uses</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/about">
-            <a className={router.pathname == "/about" ? "nav__link--active" : ""} href="/about">About</a>
-          </Link>
-        </li>
+
         <li>
           <Link href="https://aman-ki-baat.wtf">
             <a href="https://aman-ki-baat.wtf">Blog</a>
           </Link>
         </li>
+
+        <li>
+          <Link href="/about">
+            <a className={router.pathname == "/about" ? "nav__link--active" : ""} href="/about">About</a>
+          </Link>
+        </li>
+
+        <li>
+          <Link href="/uses">
+            <a className={router.pathname == "/uses" ? "nav__link--active" : ""} href="/uses">Uses</a>
+          </Link>
+        </li>
+
         <li>
           <Link href="/contact">
             <a className={router.pathname == "/contact" ? "nav__link--active" : ""} href="/contact">Contact</a>

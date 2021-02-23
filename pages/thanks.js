@@ -17,9 +17,11 @@ export default function Index() {
             Thanks to everyone who supported me to continue learning.
           </p>
 
-          <h2>Sponsors</h2>
+          <h2>Crypto</h2>
           <ul>
-            <li><a href="https://arpitpage.z13.web.core.windows.net">Arpit Srivastava</a></li>
+            <li><a href="https://unstoppabledomains.com/search?searchTerm=amanraj1608.crypto">amanraj1608.crypto</a></li>
+            <li><a href="https://etherscan.io/address/0x39F616704c8eE934f589a67F7565aabdFb2Da1be">ETH: 0x39F616704c8eE934f589a67F7565aabdFb2Da1be</a></li>
+            <li><a href="https://www.blockchain.com/btc/address/bc1q0xz5n60wxzhjxjuuym46ua5qhunyl85nh0hkxd">BTC: bc1q0xz5n60wxzhjxjuuym46ua5qhunyl85nh0hkxd</a></li>
           </ul>
 
           <h2>Become a Supporter</h2>
