@@ -46,13 +46,13 @@ export default function Index() {
             <p> I'm a motivated <strong>full-stack engineer</strong> who has experience building and scaling web applications. I have also experience in technologies like <strong> Blockchain and Machine learning.</strong>
             </p>
 
-            <p> <strong>When I'm not in front of a 💻 screen</strong>, I’m probably watching Anime, listening music, watching random stuff on YouTube, or sleeping. </p>
+            <p>In my free time, I watch Anime, listens music, watch random stuff on YouTube, or sleep.</p>
 
             <a className="status" href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
               <div className="status__light">
                 <div className="status__light__ring"></div>
                 <div className="status__light__led"></div> </div>
-              <div className="status__message underline-link" >Currently seeking opportunities for Summer Intern starting June 2020!</div>
+              <div className="status__message underline-link">Currently seeking full time opportunities!</div>
             </a>
           </div>
         </section>
@@ -60,16 +60,29 @@ export default function Index() {
         <hr className="break" />
 
         <section className="semi" >
-          <div className="semi_title">Work Experience</div>
+          <div className="semi_title">Proof of Work</div>
           <div className="semi_desc">
             <div className="achi">
 
               {/* 1 */}
               <div className="expi__name">
-                Devfolio Ethereum India
+                Polygon (Prev. Matic Network) ⟠
               </div>
               <div className="achi_name__sub">
-                Fellowship (Jan'21 - Present)
+                Software Engineer Intern (Mar'21 - Present)
+              </div>
+              <ul className="achi_list">
+                <li className="achi_name__li">
+                  Building polygon L2 projects like NFT Minter
+                </li>
+              </ul>
+
+              {/* 3 */}
+              <div className="expi__name">
+                Devfolio Ethereum India ⟠
+              </div>
+              <div className="achi_name__sub">
+                Fellowship (Feb'21 - Present)
               </div>
               <ul className="achi_list">
                 <li className="achi_name__li">
@@ -80,7 +93,7 @@ export default function Index() {
                 </li>
               </ul>
 
-              {/* 2 */}
+              {/* 5 */}
               <div className="expi__name">
                 Hapramp Studio
               </div>
@@ -89,10 +102,10 @@ export default function Index() {
               </div>
               <ul className="achi_list">
                 <li className="achi_name__li">
-                  Building <a href="http://gosocial.io/" target=" _blank" rel="noopener noreferrer">gosocial.io</a>
+                  Build <a href="http://gosocial.io/" target=" _blank" rel="noopener noreferrer">gosocial.io</a>
                 </li>
                 <li className="achi_name__li">
-                  Working on Hapramp’s GoSocial product with <strong>500k+ downloads</strong>.
+                  Worked on Hapramp’s GoSocial product with <strong>500k+ downloads</strong>.
                 </li>
                 <li className="achi_name__li">
                   Leveraged my knowledge of Next.js, Redux, and SSR to develop the product’s web
@@ -100,8 +113,8 @@ export default function Index() {
                 </li>
               </ul>
 
-              {/* 3 */}
-              <div className="expi__name">
+              {/* 4 */}
+              {/* <div className="expi__name">
                 GDG Gandhinagar
               </div>
               <div className="achi_name__sub">
@@ -114,7 +127,7 @@ export default function Index() {
                 <li className="achi_name__li">
                   Developed the webpage in Angular 7 in collaboration with the team.
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </section>
