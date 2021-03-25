@@ -33,7 +33,7 @@ export default function Index() {
             </h2>
             <br />
             <h2 className="description">I'm <span className="name">Aman</span>,
-            a third-year Computer Science undergraduate at IIIT Vadodara. </h2>
+            SDE Intern at Polygon. </h2>
           </div>
         </div>
         {/*<hr className="break" />*/}
@@ -52,7 +52,7 @@ export default function Index() {
               <div className="status__light">
                 <div className="status__light__ring"></div>
                 <div className="status__light__led"></div> </div>
-              <div className="status__message underline-link">Currently seeking full time opportunities!</div>
+              <div className="status__message underline-link">Open for full time opportunities offers!</div>
             </a>
           </div>
         </section>
@@ -98,7 +98,7 @@ export default function Index() {
                 Hapramp Studio
               </div>
               <div className="achi_name__sub">
-                Software Engineer Intern (Sep'20 - Present)
+                Software Engineer Intern (Sep'20 - Feb'21)
               </div>
               <ul className="achi_list">
                 <li className="achi_name__li">
