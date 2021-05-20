@@ -16,17 +16,17 @@ export default function Layout() {
             width="20px"
             height="20px"
           />
-      Aman Raj <span>·</span> amanraj1608
-    </a>
+          Aman Raj <span>·</span> amanraj1608
+        </a>
       </Link>
       { /* <div className="alwaysTop"></div> */}
       <ul>
 
-        <li>
+        {/* <li>
           <Link href="/">
             <a className={router.pathname == "/" ? "nav__link--active" : ""}>Home</a>
           </Link>
-        </li>
+        </li> */}
 
         <li>
           <Link href="/projects">
@@ -35,14 +35,14 @@ export default function Layout() {
         </li>
 
         <li>
-          <Link href="https://aman-ki-baat.wtf">
-            <a href="https://aman-ki-baat.wtf">Blog</a>
+          <Link href="/about">
+            <a className={router.pathname == "/about" ? "nav__link--active" : ""} href="/about">About</a>
           </Link>
         </li>
 
         <li>
-          <Link href="/about">
-            <a className={router.pathname == "/about" ? "nav__link--active" : ""} href="/about">About</a>
+          <Link href="https://blog.amanraj.dev/">
+            <a href="https://blog.amanraj.dev/">Blog</a>
           </Link>
         </li>
 

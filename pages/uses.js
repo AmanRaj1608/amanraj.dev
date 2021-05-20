@@ -14,8 +14,8 @@ export default function Uses() {
         <section id="intro">
           <h1>My Gear</h1>
           <p>Here's what tech I'm currently using for coding and music.
-          Most of these have been accumulated over the past few months after remote college.
-          Inspired from <a target="_blank" rel="noopener noreferrer" href="https://anshumanv.dev/">Anshumanv</a>.
+            Most of these have been accumulated over the past few months after remote college.
+            Inspired from <a target="_blank" rel="noopener noreferrer" href="https://anshumanv.dev/">Anshumanv</a>.
           </p>
         </section>
         <section className="uses__sec">
@@ -43,7 +43,9 @@ export default function Uses() {
           </ul>
           <h3 className="uses__title">Other Tech 🌐</h3>
           <ul className="uses__list">
+            <li>Realme buds air 2</li>
             <li>OnePlus Bullets 2</li>
+            <li>Xiaomi Writing Tablet</li>
             <li>Seagate Backup Plus Slim 2 TB</li>
             <li>Apple iPod touch (2016)</li>
           </ul>

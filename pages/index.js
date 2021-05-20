@@ -14,7 +14,7 @@ export default function Index() {
         <div className="heading">
           <div className="left_sec">
             <Image
-              src="https://avatars1.githubusercontent.com/u/42104907"
+              src="/img/aman.jpg"
               alt="Aman"
               width={250}
               height={250}
@@ -32,8 +32,8 @@ export default function Index() {
               <span id="blue_text">Student/SDE → Generalist</span>
             </h2>
             <br />
-            <h2 className="description">I'm <span className="name">Aman</span>,
-            SDE Intern at Polygon. </h2>
+            {/* <h2 className="description">I'm <span className="name">Aman</span>,
+            SDE Intern at Polygon. </h2> */}
           </div>
         </div>
         {/*<hr className="break" />*/}
@@ -52,7 +52,7 @@ export default function Index() {
               <div className="status__light">
                 <div className="status__light__ring"></div>
                 <div className="status__light__led"></div> </div>
-              <div className="status__message underline-link">Open for full time opportunities offers!</div>
+              <div className="status__message underline-link">Hire me. I'm open for full time opportunities!</div>
             </a>
           </div>
         </section>
@@ -73,7 +73,10 @@ export default function Index() {
               </div>
               <ul className="achi_list">
                 <li className="achi_name__li">
-                  Building polygon L2 projects like NFT Minter
+                  Build <a href="https://mintnft.today/" target=" _blank" rel="noopener noreferrer">mintnft.today</a>
+                </li>
+                <li className="achi_name__li">
+                  Working on L2 Bridge to transfer assets from root to child chain.
                 </li>
               </ul>
 
@@ -102,7 +105,7 @@ export default function Index() {
               </div>
               <ul className="achi_list">
                 <li className="achi_name__li">
-                  Build <a href="http://gosocial.io/" target=" _blank" rel="noopener noreferrer">gosocial.io</a>
+                  Build <a href="https://gosocial.io/" target=" _blank" rel="noopener noreferrer">gosocial.io</a>
                 </li>
                 <li className="achi_name__li">
                   Worked on Hapramp’s GoSocial product with <strong>500k+ downloads</strong>.
@@ -146,10 +149,10 @@ export default function Index() {
                 </a>
               </div>
               <p>Hosted by <strong>Ocean Protocol</strong> hackathon created decentralized Caller Id app.
-              <br />
+                <br />
                 <p className="small" style={{ margin: "15px 0px 0px 0px" }}>
                   🌊 Won $2k prize for best integration into phone data as data service.
-              <br />
+                  <br />
                 </p>
               </p>
               <div className="achi_used">
@@ -169,11 +172,11 @@ export default function Index() {
                 </a>
               </div>
               <p>Hosted by <strong>Harmony</strong> hackathon developed a product GitMony. GitMony uses <strong>Harmony Bridge</strong> and <strong>Chainlink oracle</strong>,
-              to deliver a completely decentralized platform to reward opensource contributors.
-              <br />
+                to deliver a completely decentralized platform to reward opensource contributors.
+                <br />
                 <p className="small" style={{ margin: "15px 0px 0px 0px" }}>
                   ☮️ Won $2k second prize and other schwags.
-              <br />
+                  <br />
                 </p>
               </p>
               <div className="achi_used">
@@ -193,8 +196,8 @@ export default function Index() {
                 </a>
               </div>
               <p>Hosted by <strong>IEEE Computer Society</strong> and <strong>National Informatics Center (NIC) India. </strong>
-              We designed and implemented a prototype of Unsupervised Test app. All projects rights are given to NIC.
-              <br />
+                We designed and implemented a prototype of Unsupervised Test app. All projects rights are given to NIC.
+                <br />
                 <p className="small" style={{ margin: "15px 0px 0px 0px" }}>
                   🏆 Won 1.25lakhs cash Prize. Summer Intern oppurtunity at NIC.
                   <br />
@@ -218,7 +221,7 @@ export default function Index() {
               <p>
                 Won all India blockchain hackathon for developing an app using
                 cosmos <strong>Ethermint</strong> tech stack.
-              <br />
+                <br />
                 <p className="small" style={{ margin: "15px 0px 0px 0px" }}>
                   🌟 Won $500 USD.
                 </p>
@@ -238,11 +241,11 @@ export default function Index() {
               <div className="achi_name">
                 <a href="https://devfolio.co/submissions/offsubmit" target="_blank" rel="noopener noreferrer" className="arrow-link">
                   Runner Up in Eduthon
-              </a>
+                </a>
               </div>
               <p>A national-level hackathon by <strong>IIIT Lucknow</strong> on Devfolio. Developed an application to
-              conduct online examination offline.
-              {/**
+                conduct online examination offline.
+                {/**
                 <br />
                 <p className="small" style={{ margin: "15px 0px 0px 0px" }}>
                   🌟 Won 10k cash prize and devfolio schwag.
@@ -267,11 +270,11 @@ export default function Index() {
               <div className="achi_name">
                 <a href="https://www.linkedin.com/posts/amanraj1608_hackiiitv-hackiiitv-activity-6588635125444116480-dTHg/" target="_blank" rel="noopener noreferrer" className="arrow-link">
                   Winners in HackIIITV 2019
-              </a>
+                </a>
               </div>
               <p>An intra institute level hackathon by <strong>IIIT Vadodara</strong>.
-              We designed a real-time communication app for the specially-abled.
-              {/**
+                We designed a real-time communication app for the specially-abled.
+                {/**
                 <br />
                 <span className="small" style={{ margin: "15px 0px 0px 0px" }}>
                   ⭐ Won GitHub schwags.
