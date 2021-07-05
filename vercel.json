@@ -17,6 +17,10 @@
     {
       "source": "/30min",
       "destination": "https://calendly.com/amanraj1608/30min"
-    }
+    },
+    {
+      "source": "/repay-protocol",
+      "destination": "https://www.youtube.com/"
+    },
   ]
 }
