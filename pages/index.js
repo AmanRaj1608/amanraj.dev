@@ -34,16 +34,21 @@ export default function Index() {
             <br />
             {/* <h2 className="description">I'm <span className="name">Aman</span>,
             SDE Intern at Polygon. </h2> */}
+            <h2 className="description">Blockchain Security Intern at <a href="https://www.certik.org/" target=" _blank" rel="noopener noreferrer">CertiK</a></h2>
+
           </div>
         </div>
         {/*<hr className="break" />*/}
         <section className="semi" data-sr-id="0" >
           <div className="semi_title">Background</div>
           <div className="semi_desc">
-            <p> I'm currently a CSE undergraduate <mark>👨🏻‍🎓</mark> student at <strong><a className="iiitv" href="http://iiitvadodara.ac.in/" rel="noopener noreferrer" target="_blank">
-              Indian Institute of Information Technology Vadodara</a></strong> and a Software Engineer 👨🏻‍💻 building applications with some awesome people. </p>
-
-            <p> I'm a motivated <strong>full-stack engineer</strong> who has experience building and scaling web applications. I have also experience in technologies like <strong> Blockchain and Machine learning.</strong>
+            <p>
+              I'm final-year undergraduate in Computer Science <mark>👨🏻‍🎓</mark> student at <strong><a className="iiitv" href="http://iiitvadodara.ac.in/" rel="noopener noreferrer" target="_blank">
+                Indian Institute of Information Technology Vadodara</a></strong> and a Software Engineer 👨🏻‍💻 building applications with some awesome people.
+            </p>
+            <p>
+              I'm a motivated <strong>full-stack engineer</strong> who has experience building and scaling web applications.
+              I have also experience in technologies like <strong> Blockchain and Machine learning.</strong>
             </p>
 
             <p>In my free time, I watch Anime, listens music, watch random stuff on YouTube, or sleep.</p>
@@ -66,18 +71,32 @@ export default function Index() {
 
               {/* 1 */}
               <div className="expi__name">
-                Polygon (Prev. Matic Network) ⟠
+                CertiK ⟠
               </div>
               <div className="achi_name__sub">
-                Software Engineer Intern (Mar'21 - Present)
+                Blockchain Security Intern (Aug'21 - Present)
               </div>
               <ul className="achi_list">
                 <li className="achi_name__li">
-                  Build <a href="https://mintnft.today/" target=" _blank" rel="noopener noreferrer">mintnft.today</a>
+                  Working on cross-chain protocol with security scoring dApps and blockchains.
                 </li>
+              </ul>
+
+              {/* 2 */}
+              <div className="expi__name">
+                Polygon (Matic Network) ⟠
+              </div>
+              <div className="achi_name__sub">
+                Software Engineer Intern (Mar'21 - Aug'21)
+              </div>
+              <ul className="achi_list">
+                <li className="achi_name__li">Wrote tests and docs for the matic.js library.</li>
+                <li className="achi_name__li">Worked on NFT Bridge to transfer assets (ERC721, ERC1155) between root and child chain.</li>
                 <li className="achi_name__li">
-                  Working on L2 Bridge to transfer assets from root to child chain.
+                  Built NFT Minter (<a href="https://mintnft.today/" target=" _blank" rel="noopener noreferrer">mintnft.today</a>)
+                  to mint and list NFTs on Arkane and OpenSea marketplace.
                 </li>
+                <li className="achi_name__li">Enhanced the WalletWeb V2 to catch dropped transactions (https://wallet.matic.network)</li>
               </ul>
 
               {/* 3 */}
@@ -85,18 +104,18 @@ export default function Index() {
                 Devfolio Ethereum India ⟠
               </div>
               <div className="achi_name__sub">
-                Fellowship (Feb'21 - Present)
+                Fellowship (Feb'21 - Apr'21)
               </div>
               <ul className="achi_list">
                 <li className="achi_name__li">
-                  Was selected in the top <strong>20 Web2 developers</strong> to learn and build Web3.
+                  <strong>20 Web2 developers</strong> were selected to learn and build Web3.
                 </li>
                 <li className="achi_name__li">
-                  Contributing to the <strong>Ethereum ecosystem</strong> under industry mentors.
+                  Contributed to the <strong>Ethereum ecosystem</strong> under industry mentors.
                 </li>
               </ul>
 
-              {/* 5 */}
+              {/* 4 */}
               <div className="expi__name">
                 Hapramp Studio
               </div>
@@ -144,29 +163,6 @@ export default function Index() {
             {/* 0 */}
             <div className="achi">
               <div className="achi_name">
-                <a href="https://devpost.com/software/oceancaller" target="_blank" rel="noopener noreferrer" className="arrow-link">
-                  Ocean Protocol: Data Economy Challenge
-                </a>
-              </div>
-              <p>Hosted by <strong>Ocean Protocol</strong> hackathon created decentralized Caller Id app.
-                <br />
-                <p className="small" style={{ margin: "15px 0px 0px 0px" }}>
-                  🌊 Won $2k prize for best integration into phone data as data service.
-                  <br />
-                </p>
-              </p>
-              <div className="achi_used">
-                <span className="achi_used__item">Ethereum</span>
-                <span className="achi_used__item">Ocean Protocol</span>
-                <span className="achi_used__item">React-Native</span>
-                <span className="achi_used__item">Node.js</span>
-                <span className="achi_used__item">Flask</span>
-              </div>
-            </div>
-
-            {/* 0 */}
-            <div className="achi">
-              <div className="achi_name">
                 <a href="https://medium.com/harmony-one/winners-of-the-hack-the-horizon-hackathon-ae04f95b71ab" rel="noopener noreferrer" target="_blank" className="arrow-link">
                   Harmony One: Hack the Horizon
                 </a>
@@ -187,6 +183,31 @@ export default function Index() {
                 <span className="achi_used__item">Solidity</span>
               </div>
             </div>
+
+            {/* 0 */}
+            <div className="achi">
+              <div className="achi_name">
+                <a href="https://devpost.com/software/oceancaller" target="_blank" rel="noopener noreferrer" className="arrow-link">
+                  Ocean Protocol: Data Economy Challenge
+                </a>
+              </div>
+              <p>Hosted by <strong>Ocean Protocol</strong> hackathon created decentralized Caller Id app.
+                <br />
+                <p className="small" style={{ margin: "15px 0px 0px 0px" }}>
+                  🌊 Won $2k prize for best integration into phone data as data service.
+                  <br />
+                </p>
+              </p>
+              <div className="achi_used">
+                <span className="achi_used__item">Ethereum</span>
+                <span className="achi_used__item">Ocean Protocol</span>
+                <span className="achi_used__item">React-Native</span>
+                <span className="achi_used__item">Node.js</span>
+                <span className="achi_used__item">Flask</span>
+              </div>
+            </div>
+
+
 
             {/* 1 */}
             <div className="achi">

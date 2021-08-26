@@ -14,16 +14,16 @@ export default function Uses() {
         <section id="intro">
           <h1>About</h1>
           <p>
-            I’m a third-year CSE student at IIITV, a EthIndia Fellow and an intern at Polygon (Prev. Matic Network) for Summer 2021.
+            I’m a final-year CSE student at IIITV and an intern at CertiK.
           </p>
           <p>
             My expertise lies in
             <ul>
-              <li><strong>Frontend (React, Hooks, Context, Redux, Nextjs)</strong></li>
-              <li><strong>Backend (Node.js, Go)</strong></li>
-              <li><strong>Database (MongoDB, SQL, Redis)</strong></li>
-              <li><strong>Cloud (AWS, Lamda, Digital Ocean)</strong></li>
-              <li><strong>Blockchain (Solidity, Eth, The Graph, Ocean Protocol)</strong></li>
+              <li><strong>Languages → [ Go, TypeScript / JavaScript ]</strong></li>
+              <li><strong>Blockchain → [ Solidity, Eth, The Graph, Ocean Protocol ]</strong></li>
+              <li><strong>Frameworks → [ React.js, Next.js, Hooks/Redux, NodeJS ]</strong></li>
+              <li><strong>Database → [ MYSQL, MongoDB NoSQL, Redis ]</strong></li>
+              <li><strong>Others → [ AWS, Docker, GraphQL, Git/GitHub, CI/CD, Agile ]</strong></li>
             </ul>
           </p>
           <p>

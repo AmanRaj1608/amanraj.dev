@@ -16,17 +16,17 @@ export default function Layout() {
             width="20px"
             height="20px"
           />
-          Aman Raj <span>·</span> amanraj1608
+          Aman <span>·</span> amanraj1608
         </a>
       </Link>
       { /* <div className="alwaysTop"></div> */}
       <ul>
 
-        {/* <li>
+        <li>
           <Link href="/">
             <a className={router.pathname == "/" ? "nav__link--active" : ""}>Home</a>
           </Link>
-        </li> */}
+        </li>
 
         <li>
           <Link href="/projects">

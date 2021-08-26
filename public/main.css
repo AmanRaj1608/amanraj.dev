@@ -18,7 +18,7 @@
 :root,
 body,
 html {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   background: #121116;
   color: hsla(0, 0%, 100%, 0.88);
   width: 100%;
@@ -115,7 +115,7 @@ nav a {
   white-space: nowrap;
 }
 nav a:before {
-  content: "";
+  content: '';
   position: absolute;
   display: block;
   bottom: 0;
@@ -201,7 +201,7 @@ main {
   padding: 0px 15px;
 }
 h2.title {
-  font-family: "PT Mono", monospace;
+  font-family: 'PT Mono', monospace;
   font-size: 47px;
   font-weight: 700;
   padding: 10px 0;
@@ -275,7 +275,7 @@ h2.title {
   width: 100%;
   height: 1px;
   background: #36363c;
-  content: "";
+  content: '';
   opacity: 0;
   -webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
   transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
@@ -401,7 +401,7 @@ h2.title {
   margin-bottom: 20px;
 }
 .small {
-  font-family: "PT Mono", monospace;
+  font-family: 'PT Mono', monospace;
   font-size: 0.85rem;
   display: inline-block;
   margin-top: 15px;
@@ -412,7 +412,7 @@ h2.title {
 .achi_name__li {
   height: unset;
   margin: 2px 0 0 10px;
-  list-style-type: "→  ";
+  list-style-type: '→  ';
   display: list-item;
   line-height: 1.5;
 }
@@ -450,7 +450,7 @@ h2.title {
   position: relative;
   bottom: 2px;
   margin-left: 15px;
-  content: "";
+  content: '';
   background: url(img/arrow.png) no-repeat center;
   background-size: 100%;
   width: 15px;
@@ -521,7 +521,7 @@ section p {
   padding: 1px;
 }
 .hover_eff:before {
-  content: "";
+  content: '';
   position: absolute;
   display: block;
   bottom: 0;
@@ -701,6 +701,7 @@ section .follow a img {
 }
 .uses__sec__img-one {
   width: 100%;
+  height: 450px;
   object-fit: contain;
 }
 .uses__title {

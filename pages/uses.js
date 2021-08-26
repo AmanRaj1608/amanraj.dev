@@ -21,7 +21,7 @@ export default function Uses() {
         <section className="uses__sec">
           <div className="uses__sec__img">
             <img
-              src="/img/setup.jpg"
+              src="/img/setup-2.jpg"
               alt="setup"
               className="uses__sec__img-one"
               draggable="false"
@@ -32,6 +32,7 @@ export default function Uses() {
           <ul className="uses__list">
             <li>Acer Swift 5 (2019)</li>
             <li>MSI Optix G241 Monitor</li>
+            <li>Logitech G402 Hyperion Fury</li>
             <li>Cosmic Byte CB-GK-11 Mechanical Keyboard</li>
             <li style={{ textDecoration: 'line-through' }}>HP 15 db1069AU</li>
           </ul>
@@ -43,11 +44,13 @@ export default function Uses() {
           </ul>
           <h3 className="uses__title">Other Tech 🌐</h3>
           <ul className="uses__list">
+            <li>Alexa Echo 4th Gen</li>
             <li>Realme buds air 2</li>
             <li>OnePlus Bullets 2</li>
-            <li>Xiaomi Writing Tablet</li>
-            <li>Seagate Backup Plus Slim 2 TB</li>
+            {/* <li>Xiaomi Tablet</li> */}
+            <li>Apple iPad (2019)</li>
             <li>Apple iPod touch (2016)</li>
+            <li>Seagate Backup Plus Slim 2 TB</li>
           </ul>
         </section>
       </main>
