@@ -21,6 +21,10 @@
     {
       "source": "/repay-protocol",
       "destination": "https://rinkeby.etherscan.io/address/0x32C624D907A8F4446a1A6d40F97219D0F13FE044#code"
+    },
+    {
+      "source": "/resume",
+      "destination": "https://drive.google.com/file/d/1d62-zO_lPV4_It6UEhBrcnrCveDi_mn6/view"
     }
   ]
 }
