@@ -29,17 +29,19 @@ export default function Index() {
             </div>
           </div>
           <div className="right_sec">
-            <h2 className="title">
-              Aman Raj
-            </h2>
-            <span id="blue_text">SWE → Generalist</span>
-            <br />
             <RoughNotationGroup show={true}>
-              <h2 className="description">Welcome to my <Highlight color="#BBE7FC">cool corner</Highlight> of the internet. Click here to learn more about me.
+              <h2 className="title">
+                <Highlight color="#BBE7FC" type="box" textColor={true}>
+                  Aman Raj
+                </Highlight>
+              </h2>
+              <span id="blue_text">SWE → Generalist</span>
+              <br />
+              <h2 className="description">Welcome to my <Highlight color="#BBE7FC" type="highlight">cool corner</Highlight> of the internet. Click here to learn more about me.
                 Currently, I'm wroking as
-                <Highlight color="#C7D3FC">Software Engineering Intern</Highlight>
+                <Highlight color="#C7D3FC" type="highlight">Software Engineer Intern</Highlight> at
                 <a href="https://www.certik.com" target=" _blank" className="iiitv" rel="noopener noreferrer">
-                  <Highlight color="#10F0B1">@CertiK</Highlight></a>
+                  <Highlight color="#10F0B1" type="highlight">@CertiK</Highlight></a>
               </h2>
             </RoughNotationGroup>
           </div>
