@@ -1,13 +1,16 @@
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import Highlight from '../components/Highlight'
 import Head from 'next/head'
 import Image from 'next/image'
+import { RoughNotationGroup } from "react-rough-notation";
 
 export default function Index() {
+
   return (
     <>
       <Head>
-        <title>Aman Raj · AmanRaj1608</title>
+        <title>Aman Raj</title>
       </Head>
       <Navbar />
       <main style={{ padding: "1vh" }}>
@@ -27,17 +30,22 @@ export default function Index() {
           </div>
           <div className="right_sec">
             <h2 className="title">
-              Aman Raj,
-              <br />
-              <span id="blue_text">Student/SDE → Generalist</span>
+              Aman Raj
             </h2>
+            <span id="blue_text">SWE → Generalist</span>
             <br />
-            {/* <h2 className="description">I'm <span className="name">Aman</span>,
-            SDE Intern at Polygon. </h2> */}
-            <h2 className="description">Blockchain Security Intern at <a href="https://www.certik.org/" target=" _blank" rel="noopener noreferrer">CertiK</a></h2>
-
+            <RoughNotationGroup show={true}>
+              <h2 className="description">Welcome to my <Highlight color="#BBE7FC">cool corner</Highlight> of the internet. Click here to learn more about me.
+                Currently, I'm wroking as
+                <Highlight color="#C7D3FC">Software Engineering Intern</Highlight>
+                <a href="https://www.certik.com" target=" _blank" className="iiitv" rel="noopener noreferrer">
+                  <Highlight color="#10F0B1">@CertiK</Highlight></a>
+              </h2>
+            </RoughNotationGroup>
           </div>
         </div>
+        <RoughNotationGroup show={true}>
+        </RoughNotationGroup>
         {/*<hr className="break" />*/}
         <section className="semi" data-sr-id="0" >
           <div className="semi_title">Background</div>
@@ -161,19 +169,65 @@ export default function Index() {
           <div className="semi_desc">
 
             {/* 0 */}
+            {/* <div className="achi">
+              <div className="achi_name">
+                <a href="https://algorand-innovate.hackerearth.com" rel="noopener noreferrer" target="_blank" className="arrow-link">
+                  INNOVATE: Algorand Blockchain Hackathon
+                </a>
+              </div>
+              <p>Hosted by <strong>Algorand</strong> hackathon developed a product AlgoRidge.
+                Algoridge is an oracle based bridge between algorand and avalanche.
+                <br />
+                <p className="small" style={{ margin: "15px 0px 0px 0px" }}>
+                  ⚡️ Won $20k USDC in second prize and other schwags.
+                  <br />
+                </p>
+              </p>
+              <div className="achi_used">
+                <span className="achi_used__item">Ether.js</span>
+                <span className="achi_used__item">Next.js</span>
+                <span className="achi_used__item">Teal</span>
+                <span className="achi_used__item">Node.js</span>
+              </div>
+            </div> */}
+
+            {/* 0 */}
+            <div className="achi">
+              <div className="achi_name">
+                <a href="https://devpost.com/software/dclubhouse" rel="noopener noreferrer" target="_blank" className="arrow-link">
+                  Neo Frontier Blockchain Launchpad
+                </a>
+              </div>
+              <p>
+                Won the Excellence Award with a 1.4x
+                multiplier at Neo Frontier Blockchain Launchpad.
+                <br />
+                <p className="small" style={{ margin: "15px 0px 0px 0px" }}>
+                  ⚡️ Won $7k USDC in second prize and other schwags.
+                </p>
+              </p>
+              <div className="achi_used">
+                <span className="achi_used__item">WebRTC</span>
+                <span className="achi_used__item">Next.js</span>
+                <span className="achi_used__item">Node.js</span>
+                <span className="achi_used__item">Neoline</span>
+              </div>
+            </div>
+
+            {/* 0 */}
             <div className="achi">
               <div className="achi_name">
                 <a href="https://medium.com/harmony-one/winners-of-the-hack-the-horizon-hackathon-ae04f95b71ab" rel="noopener noreferrer" target="_blank" className="arrow-link">
                   Harmony One: Hack the Horizon
                 </a>
               </div>
-              <p>Hosted by <strong>Harmony</strong> hackathon developed a product GitMony. GitMony uses <strong>Harmony Bridge</strong> and <strong>Chainlink oracle</strong>,
+              <p>Hosted by <strong>Harmony</strong> hackathon developed a product GitMony. GitMony uses Harmony Bridge and Chainlink oracle,
                 to deliver a completely decentralized platform to reward opensource contributors.
                 <br />
-                <p className="small" style={{ margin: "15px 0px 0px 0px" }}>
+                {/* <p className="small" style={{ margin: "15px 0px 0px 0px" }}>
                   ☮️ Won $2k second prize and other schwags.
                   <br />
-                </p>
+                </p> */}
               </p>
               <div className="achi_used">
                 <span className="achi_used__item">Chainlink</span>
@@ -193,10 +247,10 @@ export default function Index() {
               </div>
               <p>Hosted by <strong>Ocean Protocol</strong> hackathon created decentralized Caller Id app.
                 <br />
-                <p className="small" style={{ margin: "15px 0px 0px 0px" }}>
+                {/* <p className="small" style={{ margin: "15px 0px 0px 0px" }}>
                   🌊 Won $2k prize for best integration into phone data as data service.
                   <br />
-                </p>
+                </p> */}
               </p>
               <div className="achi_used">
                 <span className="achi_used__item">Ethereum</span>
@@ -218,11 +272,12 @@ export default function Index() {
               </div>
               <p>Hosted by <strong>IEEE Computer Society</strong> and <strong>National Informatics Center (NIC) India. </strong>
                 We designed and implemented a prototype of Unsupervised Test app. All projects rights are given to NIC.
+                Won 1.25lakhs cash Prize. Summer Intern oppurtunity at NIC.
                 <br />
-                <p className="small" style={{ margin: "15px 0px 0px 0px" }}>
+                {/* <p className="small" style={{ margin: "15px 0px 0px 0px" }}>
                   🏆 Won 1.25lakhs cash Prize. Summer Intern oppurtunity at NIC.
                   <br />
-                </p>
+                </p> */}
               </p>
               <div className="achi_used">
                 <span className="achi_used__item">ML</span>
@@ -243,18 +298,18 @@ export default function Index() {
                 Won all India blockchain hackathon for developing an app using
                 cosmos <strong>Ethermint</strong> tech stack.
                 <br />
-                <p className="small" style={{ margin: "15px 0px 0px 0px" }}>
+                {/* <p className="small" style={{ margin: "15px 0px 0px 0px" }}>
                   🌟 Won $500 USD.
-                </p>
+                </p> */}
               </p>
-              <div className="achi_used">
+              {/* <div className="achi_used">
                 <span className="achi_used__item">Ethermint</span>
                 <span className="achi_used__item">Solidity</span>
                 <span className="achi_used__item">Node.js</span>
                 <span className="achi_used__item">React</span>
                 <span className="achi_used__item">Web3.js</span>
                 <span className="achi_used__item">Flutter</span>
-              </div>
+              </div> */}
             </div>
 
             {/* 3 */}

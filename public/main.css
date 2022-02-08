@@ -5,21 +5,11 @@
   box-sizing: border-box;
   text-rendering: optimizeLegibility;
 }
-/* html {
-  overflow-x: hidden;
-  background-color: rgb(0, 0, 0);
-  color: aliceblue;
-  background-image: url(https://mastergatsby.com/stylesheets/build/grit.0f8155d3.png),
-    url(https://mastergatsby.com/stylesheets/build/grit.0f8155d3.png);
-  background-size: 1200px, 900px, 200px;
-  background-position: 0 0, 100% 100%, 50%;
-  background-attachment: fixed, scroll, scroll;
-} */
 :root,
 body,
 html {
-  font-family: 'Open Sans', sans-serif;
-  background: #121116;
+  font-family: "Open Sans", sans-serif;
+  background: rgba(6, 9, 18, 1);
   color: hsla(0, 0%, 100%, 0.88);
   width: 100%;
   min-height: 100vh;
@@ -34,15 +24,6 @@ html {
   -webkit-box-direction: normal;
   flex-direction: column;
 }
-/* .alwaysTop {
-  background: linear-gradient(to right, rgb(80, 250, 123), rgb(21, 101, 192));
-  position: fixed;
-  z-index: 1031;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 2px;
-} */
 mark {
   background: #ffdf6e;
   color: hsla(0, 0%, 100%, 0.88);
@@ -115,7 +96,7 @@ nav a {
   white-space: nowrap;
 }
 nav a:before {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   bottom: 0;
@@ -197,27 +178,30 @@ main {
   position: relative;
   max-width: 600px;
   margin: auto;
+  margin-left: 0px;
   min-height: 1px;
   padding: 0px 15px;
 }
 h2.title {
-  font-family: 'PT Mono', monospace;
-  font-size: 47px;
-  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  font-size: 45px;
+  font-weight: 500;
   padding: 10px 0;
-  color: tomato;
+  color: #0cf2b2;
 }
 #blue_text {
   padding: 0;
-  color: hotpink;
+  color: #D6E5FA;
   font-weight: 400;
-  font-size: 40px;
+  font-size: 30px;
 }
 .description {
   font-weight: 400;
-  font-size: 25px;
+  font-size: 18px;
+  color: hsla(0, 0%, 100%, 0.88);
+  margin-top: 10px;
+  line-height: 1.3;
 }
-
 .break {
   border: none;
   width: 100%;
@@ -275,7 +259,7 @@ h2.title {
   width: 100%;
   height: 1px;
   background: #36363c;
-  content: '';
+  content: "";
   opacity: 0;
   -webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
   transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
@@ -401,8 +385,8 @@ h2.title {
   margin-bottom: 20px;
 }
 .small {
-  font-family: 'PT Mono', monospace;
-  font-size: 0.85rem;
+  /* font-family: "PT Mono"; */
+  font-size: 10px;
   display: inline-block;
   margin-top: 15px;
 }
@@ -412,7 +396,7 @@ h2.title {
 .achi_name__li {
   height: unset;
   margin: 2px 0 0 10px;
-  list-style-type: '→  ';
+  list-style-type: "→  ";
   display: list-item;
   line-height: 1.5;
 }
@@ -430,8 +414,8 @@ h2.title {
   font-weight: 700;
   padding: 2px 7px;
   border-radius: 3px;
-  color: #00917c;
-  border: 1px solid #00917c;
+  color: #6F69AC;
+  border: 1px solid #6F69AC;
   background: 0 0;
 }
 
@@ -450,7 +434,7 @@ h2.title {
   position: relative;
   bottom: 2px;
   margin-left: 15px;
-  content: '';
+  content: "";
   background: url(img/arrow.png) no-repeat center;
   background-size: 100%;
   width: 15px;
@@ -521,7 +505,7 @@ section p {
   padding: 1px;
 }
 .hover_eff:before {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   bottom: 0;

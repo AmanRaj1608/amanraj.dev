@@ -16,10 +16,9 @@ export default function Layout() {
             width="20px"
             height="20px"
           />
-          Aman <span>·</span> amanraj1608
+          @amanraj1608
         </a>
       </Link>
-      { /* <div className="alwaysTop"></div> */}
       <ul>
 
         <li>

@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "description": "Aman Raj · AmanRaj1608",
+  "description": "Aman Raj AmanRaj1608",
   "version": "1.0.0",
   "author": "Aman Raj <archanaamanraj@gmail.com>",
   "main": "index.js",
@@ -10,13 +10,12 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "^10.0.6",
-    "next-offline": "^5.0.3",
+    "next": "^12.0.10",
+    "next-offline": "^5.0.5",
     "nprogress": "^0.2.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "sharp": "^0.27.1",
-    "webpack": "^5.19.0"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-rough-notation": "^1.0.1"
   },
   "license": "MIT"
 }

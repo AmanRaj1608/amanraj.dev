@@ -47,46 +47,46 @@ const social = [
   {
     name: "GitHub",
     link: "https://github.com/AmanRaj1608",
-    logo_link: "https://www.flaticon.com/svg/static/icons/svg/1051/1051275.svg",
+    logo_link: "/icons/github.svg",
   },
   {
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/amanraj1608/",
-    logo_link: "https://www.flaticon.com/svg/static/icons/svg/145/145807.svg",
+    logo_link: "/icons/linkedin.svg",
   },
   {
     name: "Twitter",
     link: "https://twitter.com/AmanRaj1608",
-    logo_link: "https://www.flaticon.com/svg/static/icons/svg/733/733579.svg",
+    logo_link: "/icons/twitter.svg",
   },
   {
     name: "YouTube",
     link: "https://www.youtube.com/channel/UCSqOv0q3qCGMFwTcoznWO1Q",
-    logo_link: "https://www.flaticon.com/svg/static/icons/svg/1384/1384060.svg",
+    logo_link: "/icons/youtube.svg",
   },
   {
     name: "Telegram",
     link: "https://t.me/amanraj1608",
-    logo_link: "https://www.flaticon.com/svg/static/icons/svg/2111/2111667.svg",
+    logo_link: "/icons/telegram.svg",
   },
   {
     name: "Twitch",
     link: "https://www.twitch.tv/amanraj1608",
-    logo_link: "https://www.flaticon.com/svg/static/icons/svg/733/733577.svg",
+    logo_link: "/icons/twitch.svg",
   },
   {
     name: "Instagram",
     link: "https://www.instagram.com/amanraj1608/",
-    logo_link: "https://www.flaticon.com/svg/static/icons/svg/174/174855.svg",
+    logo_link: "/icons/instagram.svg",
   },
   {
     name: "Dribble",
     link: "https://dribbble.com/AmanRaj1608",
-    logo_link: "https://www.flaticon.com/svg/static/icons/svg/1051/1051259.svg",
+    logo_link: "/icons/dribble.svg",
   },
   {
     name: "Product Hunt",
     link: "https://www.producthunt.com/@amanraj1608",
-    logo_link: "https://www.flaticon.com/svg/static/icons/svg/2111/2111556.svg",
+    logo_link: "/icons/product_hunt.svg",
   }
 ]
