@@ -58,8 +58,8 @@ class MyDocument extends Document {
             }}
           />
 
-          <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
-          <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+          {/* <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
+          <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script> */}
 
           <link rel="prefetch" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=PT+Mono&display=swap" as="font" type="font" crossOrigin="true" />
         </Head>

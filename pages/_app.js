@@ -16,18 +16,22 @@ Router.events.on('routeChangeError', () => NProgress.done())
 export default function App({ Component, pageProps }) {
   useEffect(() => {
     if (typeof window !== "undefined") {
-      const calendlyCode = `
-      (function(){
-        console.log('calendly fn execute');
-        Calendly.initBadgeWidget({ url: 'https://calendly.com/amanraj1608', 
-        text: 'Schedule meet', color: '#0069ff', textColor: '#ffffff', branding: true 
-      });
-      })();
-      `;
-      new Function(calendlyCode)();
+      // const calendlyCode = `
+      // (function () {
+      //   console.log('calendly fn execute');
+      //   if (Calendly) {
+      //     Calendly.initBadgeWidget({
+      //       url: 'https://calendly.com/amanraj1608',
+      //       text: 'Schedule meet', color: '#0069ff', textColor: '#ffffff', branding: true
+      //     })
+      //   };
+      // })();
+      // `;
+      // new Function(calendlyCode)();
 
       const clarityCode = `
       (function(c,l,a,r,i,t,y){
+        console.log('clarity fn execute');
         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
         t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
