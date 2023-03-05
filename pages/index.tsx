@@ -83,7 +83,9 @@ const Home = () => {
                     className="heading_left_carusel__item-img"
                     draggable="false"
                   />
-                  <div className="heading_left_carusel__item-content">ME 2018</div>
+                  <div className="heading_left_carusel__item-content">
+                    ME 2018
+                  </div>
                 </div>
               </div>
 
@@ -155,7 +157,9 @@ const Home = () => {
                     className="heading_left_carusel__item-img"
                     draggable="false"
                   />
-                  <div className="heading_left_carusel__item-content">Me 2018</div>
+                  <div className="heading_left_carusel__item-content">
+                    Me 2018
+                  </div>
                 </div>
               </div>
             </div>
@@ -171,7 +175,7 @@ const Home = () => {
                 <Highlight color="#4E31AA" type="circle">
                   computer science
                 </Highlight>{" "}
-                undergraduate from IIIT India . I’m curretly working as
+                undergraduate from IIIT Vadodara. I’m curretly working as
                 <Highlight color="#C7D3FC" type="highlight">
                   Blockchain Engineer
                 </Highlight>

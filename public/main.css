@@ -186,11 +186,11 @@ main {
   justify-content: space-evenly;
 }
 .heading_left_carusel__col_2 {
+  width: 50%;
   animation: marquee-bottom 30s linear infinite;
 }
 .heading_left_carusel__col_1 {
-  display: block;
-  opacity: 1;
+  width: 50%;
   animation: marquee-top 30s linear infinite;
 }
 @keyframes marquee-bottom {
