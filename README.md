@@ -3,6 +3,6 @@
 Webpage built using -
 
 - NextJS
-- Netlify
+- Vercel
 
 <hr>
